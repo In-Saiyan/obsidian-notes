@@ -14,6 +14,13 @@ Trying to <mark style="background: #FFF3A3A6;">predict a number</mark> from <mar
 ### <span style="color:rgb(0, 176, 80)">Classification</span>
 Trying to <mark style="background: #FFF3A3A6;">predict a category</mark> from a <mark style="background: #BBFABBA6;">finite set</mark> of possible outputs.
 
+--------
 ## <span style="color:rgb(0, 112, 192)">Unsupervised learning</span>
-
+When only data is provided to the Machine Learning Algorithm, it's known as unsupervised machine learning.
+### <span style="color:rgb(0, 176, 80)">Clustering</span>
+Trying to group the provided data into groups/categories based based on the patterns between them.
+### <span style="color:rgb(0, 176, 80)">Anomaly Detection</span>
+Trying to find unusual data in the given input.
+### <span style="color:rgb(0, 176, 80)">Dimensionality Reduction</span>
+Compress a large dataset into a small dataset while trying to lose as little information as possible.
 
