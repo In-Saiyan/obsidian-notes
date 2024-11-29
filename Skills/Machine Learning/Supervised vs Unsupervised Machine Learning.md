@@ -7,3 +7,7 @@
 3. Recommended Systems 
 4. Reinforcement learning
 
+## Supervised learning
+When the correct output for every input is provided to the Machine Learning Algorithm, it's kno
+### Regression
+Trying to predict a number from infinitely many possible outputs
