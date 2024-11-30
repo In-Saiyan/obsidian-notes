@@ -146,7 +146,11 @@ for example if we want to give read permission to everyone, no write permission 
 ### **chown**
 - Changes file ownership.
 - Examples
-  - `chown -R root: foldername` - 
+  - `sudo chown -R root: foldername` - Makes root the owner of the folder
+  - `sudo chown root: filename` - Makes root the owner of the file
+  - `sudo chown username: filename` - Makes user the owner of the file
+  - `sudo chown -R username: foldername` - Makes user the owner of the folder
+  - `sudo chown -R username:group foldername` - If there are multiple users we can specify the username from the group
 ### **chgrp**
 - Changes group ownership.
 
@@ -157,7 +161,11 @@ for example if we want to give read permission to everyone, no write permission 
 ### **ps**
 - Displays running processes.
 - Examples:
-  - `ps -aux` - Shows all processes.
+  - `ps -e` - Shows processes for all users.
+  - `ps -f` - Shows all details including Parent Process ID
+  - `ps -u username` - Shows processes for user provided
+  - `ps aux` - Shows all processes with Memory and CPU usage.
+  - `pdf -ef` - Shows all processes for all users with their parent process ID
 ### **kill**
 - Terminates a process using its PID.
 - Example:
