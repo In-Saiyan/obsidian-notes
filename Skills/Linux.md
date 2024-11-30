@@ -136,11 +136,17 @@ and bits are rwx with value either 0 or 1
 first bit represents if it is a directory or not, the following 9 bits show the permissions for these three group for these 3 access types
 
 for example
-drw-r-----
+`drw-r-----`
 shows that user has read and write permissions, group has read permissions and others do not have any permission
 We can `chmod` on u, g, o, a and add permissions with `+` and remove permissions with `-` for r, w, x, s
+
+for example if we want to give read permission to everyone, no write permission to others and execute permission only to user
+`rwxrw-r--`
+`chmod a-rwx,a+r,ug+w,u+x filename/directory` or `chmod 764`
 ### **chown**
 - Changes file ownership.
+- Examples
+  - `chown -R root: foldername` - 
 ### **chgrp**
 - Changes group ownership.
 
