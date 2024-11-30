@@ -284,26 +284,63 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 ## <span style="color:rgb(0, 112, 192)">6. Viewing and Editing Files</span>
 
 ### **cat**
+
 - Concatenates and displays file content.
-  - Options:
-    - `cat -n` - Show line numbers.
+    - Options:
+        - `cat -n` - Show line numbers.
+
 ### **tac**
+
 - Displays file content in reverse order.
+
 ### **head**
+
 - Displays the first lines of a file.
-  - Example: `head -n 5 file.txt`.
+    - Example: `head -n 5 file.txt`.
+
 ### **tail**
+
 - Displays the last lines of a file.
-  - Example: `tail -n 5 file.txt`.
+    - Example: `tail -n 5 file.txt`.
+
 ### **sort**
-- Sorts file content.
-  - Example: `sort -r file.txt` - Reverse order.
+
+- Sorts file content line by line.
+    - Examples:
+        - `sort file.txt` - Sorts lines alphabetically.
+        - `sort -r file.txt` - Sorts lines in reverse order.
+        - `sort -n file.txt` - Sorts numerically.
+        - `sort -k 2 file.txt` - Sorts based on the second column (useful for tabular data).
+        - `sort -u file.txt` - Removes duplicate lines while sorting.
+    - Can be combined with `uniq` to manage duplicates:
+        - Example: `sort file.txt | uniq` - Sorts and removes duplicates.
+
 ### **diff**
-- Compares two files line by line.
+
+- Compares two files line by line and shows differences.
+    - Examples:
+        - `diff file1.txt file2.txt` - Displays line differences between two files.
+        - `diff -y file1.txt file2.txt` - Shows side-by-side comparison.
+        - `diff -c file1.txt file2.txt` - Displays differences in context format.
+        - `diff -u file1.txt file2.txt` - Displays differences in unified format (commonly used in patches).
+
 ### **cmp**
+
 - Compares two files byte by byte.
+    - Examples:
+        - `cmp file1.txt file2.txt` - Outputs the first difference between the files.
+        - `cmp -l file1.txt file2.txt` - Lists all differing bytes with their offsets and values.
+        - `cmp -s file1.txt file2.txt` - Suppresses output, returning only the exit status (useful for scripts).
+
 ### **comm**
-- Compares sorted files line by line.
+
+- Compares two sorted files line by line, displaying common and differing lines.
+    - Examples:
+        - `comm file1.txt file2.txt` - Displays three columns: unique to the first file, unique to the second, and common lines.
+        - `comm -1 file1.txt file2.txt` - Suppresses lines unique to the first file.
+        - `comm -2 file1.txt file2.txt` - Suppresses lines unique to the second file.
+        - `comm -3 file1.txt file2.txt` - Suppresses lines common to both files.
+    - Note: Both files must be sorted for accurate results.
 
 ---
 
