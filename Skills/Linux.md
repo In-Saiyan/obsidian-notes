@@ -241,7 +241,8 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 - Searches for patterns in files.
   - Example: `grep "pattern" file.txt`.
   - `grep -r "pattern" path/to/directory` - finds all the patterns in every file inside the given directory
-  - 
+  - `grep -v "pattern" file` - DIsplay everything except the lines containing the pattern
+  - `grep -n "pattern" file`- Display with number of the line 
 ### **find**
 - Finds files in the filesystem.
   - Example: `find /path -name "file.txt"`.
