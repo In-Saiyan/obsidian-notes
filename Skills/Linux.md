@@ -138,7 +138,7 @@ first bit represents if it is a directory or not, the following 9 bits show the 
 for example
 `drw-r-----`
 shows that user has read and write permissions, group has read permissions and others do not have any permission
-We can `chmod` on u, g, o, a and add permissions with `+` and remove permissions with `-` for r, w, x, s
+We can `chmod` on u, g, o, a and add permissions with `+` and remove permissions with `-`  or just assign permission with `=` for r, w, x, s
 
 for example if we want to give read permission to everyone, no write permission to others and execute permission only to user
 `rwxrw-r--`
@@ -170,6 +170,23 @@ for example if we want to give read permission to everyone, no write permission 
 - Terminates a process using its PID.
 - Example:
   - `kill 1234` - Kill process with PID 1234.
+Signals are numeric or named values that dictate the action taken on the process.
+
+| Signal Name | Signal Number | Description                                 |
+| ----------- | ------------- | ------------------------------------------- |
+| `SIGHUP`    | 1             | Reloads the configuration of the process.   |
+| `SIGINT`    | 2             | Interrupts the process (similar to Ctrl+C). |
+| `SIGKILL`   | 9             | Forcefully terminates the process.          |
+| `SIGTERM`   | 15            | Gracefully terminates the process.          |
+| `SIGSTOP`   | 19            | Stops (pauses) the process.                 |
+| `SIGCONT`   | 18            | Resumes a stopped process.                  |
+
+The `SIGKILL` and `SIGTERM` signals are most commonly used for terminating processes.
+- **Gracefully terminate a process**:
+```bash
+kill -9 1234
+```
+this forcefully kills the process with id = 1234 because signal number 9 is forceful termination.
 ### **fg**
 - Brings a process to the foreground.
 ### **bg**
@@ -182,11 +199,16 @@ for example if we want to give read permission to everyone, no write permission 
 - Prints the username of the current user.
 ### **su**
 - Switches to another user account.
+- `su` - Switches to root
+- `su user` - Switches to user
 ### **sudo**
 - Executes commands with elevated privileges.
+- `sudo command ...flags ...args`
 
 ### **uname**
 - Displays system information.
+  - `uname` - Operating system
+  - `uname -r` - Shows kernel version
   - `uname -a` - Show all system details.
 ### **df**
 - Displays disk usage.
