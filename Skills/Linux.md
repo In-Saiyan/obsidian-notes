@@ -237,19 +237,47 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 ---
 ## <span style="color:rgb(0, 112, 192)">5. Search and File Operations</span>
 
-### **grep**
+#### **grep**
+
 - Searches for patterns in files.
-  - Example: `grep "pattern" file.txt`.
-  - `grep -r "pattern" path/to/directory` - finds all the patterns in every file inside the given directory
-  - `grep -v "pattern" file` - DIsplay everything except the lines containing the pattern
-  - `grep -n "pattern" file`- Display with number of the line 
-### **find**
-- Finds files in the filesystem.
-  - Example: `find /path -name "file.txt"`.
-### **locate**
-- Searches using a prebuilt database.
-### **man**
-- Displays the manual page for a command.
+    - `grep "pattern" file.txt` - Finds lines matching the pattern in a file.
+    - `grep -r "pattern" path/` - Searches recursively in a directory.
+    - `grep -v "pattern" file.txt` - Excludes lines containing the pattern.
+    - `grep -n "pattern" file.txt` - Displays matching lines with line numbers.
+
+#### **find**
+
+- Locates files and directories in the filesystem based on various criteria:
+    - `find /path -name "file.txt"` - Searches for files by name.
+    - `find /path -type f` - Finds all regular files.
+    - `find /path -type d` - Finds all directories.
+    - `find /path -size +100M` - Finds files larger than 100MB.
+    - `find /path -mtime -7` - Finds files modified in the last 7 days.
+    - `find /path -perm 644` - Searches for files with specific permissions.
+    - `find /path -name "*.log" -exec rm {} \;` - Executes commands on matching files (e.g., deleting all `.log` files).
+    - Logical operators:
+        - `find /path -name "*.txt" -o -name "*.md"` - Matches `.txt` or `.md` files.
+        - `find /path -not -name "*.tmp"` - Excludes `.tmp` files.
+#### **locate**
+- Searches for files using a prebuilt database (`updatedb` must be run to refresh it).
+    - Faster than `find`, but may not reflect recent changes in the filesystem.
+    - Examples:
+        - `locate file.txt` - Finds files matching the name.
+        - `locate -i file.txt` - Case-insensitive search.
+        - `locate "*.log" | grep "error"` - Combines with `grep` for advanced filtering.
+    - To update the database: `sudo updatedb`.
+#### **man**
+- Displays the manual page for a command with detailed usage and options.
+    - Examples:
+        - `man grep` - Opens the manual for `grep`.
+        - `man 5 crontab` - Opens the manual for the `crontab` file format (section 5).
+    - Navigation:
+        - Use arrow keys or `Page Up`/`Page Down` to scroll.
+        - Press `/` to search within the manual and `n` for the next occurrence.
+        - Press `q` to exit.
+    - Other tips:
+        - `man -k "keyword"` - Searches for commands related to a keyword.
+        - `man -f "command"` - Displays a short description of a command (same as `whatis command`).
 
 ---
 
