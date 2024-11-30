@@ -314,3 +314,24 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 - Reads user input.
 
 ---
+# **Globbing in Linux**
+
+Globbing refers to the use of wildcard patterns in Linux to match filenames and directories. These patterns allow you to perform operations on multiple files or directories without specifying each one explicitly.
+
+## **Common Wildcards for Globbing**
+
+| Wildcard | Meaning                              | Example                                 | Matches                              |
+|----------|--------------------------------------|-----------------------------------------|--------------------------------------|
+| `*`      | Matches zero or more characters.    | `*.txt`                                | `file.txt`, `notes.txt`, `a.txt`    |
+| `?`      | Matches exactly one character.      | `file?.txt`                            | `file1.txt`, `fileA.txt`            |
+| `[]`     | Matches any one character in the set. | `file[123].txt`                        | `file1.txt`, `file2.txt`, `file3.txt`|
+| `[^]`    | Matches any one character **not** in the set. | `file[^1].txt`                 | `file2.txt`, `fileA.txt`            |
+| `{}`     | Matches any of the comma-separated patterns. | `{file1,file2}.txt`            | `file1.txt`, `file2.txt`            |
+| `**`     | Matches files and directories recursively (with `shopt -s globstar`). | `dir/**/*.txt`              | All `.txt` files in `dir` and subdirectories.|
+
+## **Examples**
+
+1. **Match all `.txt` files in a directory**:  
+   ```bash
+   ls *.txt
+```
