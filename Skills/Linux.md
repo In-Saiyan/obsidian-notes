@@ -1,6 +1,6 @@
-# **Linux Commands**
+# <span style="color:rgb(0, 176, 80)">Linux Commands</span>
 
-## **Table of Contents**
+## Table of Contents
 1. [File Structure Commands](#file-structure-commands)
    - [cd](#cd)
    - [ls](#ls)
@@ -57,7 +57,7 @@
 
 ---
 
-## **1. File Structure Commands**
+## <span style="color:rgb(0, 112, 192)">1. File Structure Commands</span>
 
 ### **cd**
 - Changes the working directory.
@@ -124,7 +124,7 @@
   - `mv source destination` 
 
 ---
-## **2. File and Directory Management**
+## <span style="color:rgb(0, 112, 192)">2. File and Directory Management</span>
 
 ### **chmod**
 - Modifies file permissions.
@@ -143,6 +143,14 @@ We can `chmod` on u, g, o, a and add permissions with `+` and remove permissions
 for example if we want to give read permission to everyone, no write permission to others and execute permission only to user
 `rwxrw-r--`
 `chmod a-rwx,a+r,ug+w,u+x filename/directory` or `chmod 764`
+    Owner (u): The user who owns the file.
+    Group (g): The group associated with the file.
+    Others (o): All other users on the system.
+    All (a) : (owner, group, and others) 
+    Read (r): Permission to view the contents of a file.
+    Write (w): Permission to modify or delete the contents of a file.
+    Execute (x): Permission to run a file as a program or script. 
+    Sudo(s): Need sudo to run the executable/script
 ### **chown**
 - Changes file ownership.
 - Examples
@@ -156,7 +164,7 @@ for example if we want to give read permission to everyone, no write permission 
 
 ---
 
-## **3. Process Management**
+## <span style="color:rgb(0, 112, 192)">3. Process Management</span>
 
 ### **ps**
 - Displays running processes.
@@ -193,7 +201,7 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 - Resumes a background process.
 
 ---
-## **4. System Information and Utilities**
+## <span style="color:rgb(0, 112, 192)">4. System Information and Utilities</span>
 
 ### **whoami**
 - Prints the username of the current user.
@@ -213,15 +221,27 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 ### **df**
 - Displays disk usage.
   - `df -h` - Human-readable format.
+  - `df -T` - Shows the file systems.
+  - `df -t ext4` - Shows the partitions of the type mentioned in this case, ext4
 ### **ifconfig**
 - Displays network interface configurations.
+- Displays the following information - 
+   Interface Name: The name of the network interface (e.g., eth0, wlan0, lo).
+   IP Address: The IPv4 address assigned to the interface.
+   Broadcast Address: The address used to send packets to all network devices.
+   Netmask: The subnet mask that defines the network’s size.
+   MAC Address: The hardware (MAC) address of the interface.
+   MTU (Maximum Transmission Unit): The largest size of data packets that can be transmitted.
+   RX and TX: Information about data packets received (RX) and transmitted (TX), including errors, dropped packets, and byte counts.
 
 ---
-## **5. Search and File Operations**
+## <span style="color:rgb(0, 112, 192)">5. Search and File Operations</span>
 
 ### **grep**
 - Searches for patterns in files.
   - Example: `grep "pattern" file.txt`.
+  - `grep -r "pattern" path/to/directory` - finds all the patterns in every file inside the given directory
+  - 
 ### **find**
 - Finds files in the filesystem.
   - Example: `find /path -name "file.txt"`.
@@ -232,7 +252,7 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 
 ---
 
-## **6. Viewing and Editing Files**
+## <span style="color:rgb(0, 112, 192)">6. Viewing and Editing Files</span>
 
 ### **cat**
 - Concatenates and displays file content.
@@ -258,7 +278,7 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 
 ---
 
-## **7. Archiving and Compression**
+## <span style="color:rgb(0, 112, 192)">7. Archiving and Compression</span>
 
 ### **zip**
 - Compresses files into a ZIP archive.
@@ -270,7 +290,7 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
   - Example: `tar -cvf archive.tar dir/`.
 
 ---
-## **8. Networking and Downloads**
+## <span style="color:rgb(0, 112, 192)">8. Networking and Downloads</span>
 
 ### **wget**
 - Downloads files from the web.
@@ -278,7 +298,7 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 
 ---
 
-## **9. Miscellaneous**
+## <span style="color:rgb(0, 112, 192)">9. Miscellaneous</span>
 
 ### **cal**
 - Displays a calendar.
