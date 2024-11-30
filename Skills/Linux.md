@@ -120,6 +120,8 @@
   - `cp -r dir1 dir2` - Copy directory recursively.
 ### **mv**
 - Moves or renames files and directories.
+- Examples:
+  - `mv source destination` 
 
 ---
 ## **2. File and Directory Management**
@@ -128,6 +130,15 @@
 - Modifies file permissions.
 - Examples:
   - `chmod 777 file` - Full permissions for everyone.
+
+bits are in group of three user, group, others
+and bits are rwx with value either 0 or 1
+first bit represents if it is a directory or not, the following 9 bits show the permissions for these three group for these 3 access types
+
+for example
+drw-r-----
+shows that user has read and write permissions, group has read permissions and others do not have any permission
+We can `chmod` on u, g, o, a and add permissions with `+` and remove permissions with `-` for r, w, x, s
 ### **chown**
 - Changes file ownership.
 ### **chgrp**
