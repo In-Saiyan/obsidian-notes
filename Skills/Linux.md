@@ -345,15 +345,40 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 ---
 
 ## <span style="color:rgb(0, 112, 192)">7. Archiving and Compression</span>
-
 ### **zip**
 - Compresses files into a ZIP archive.
-  - Example: `zip -r archive.zip dir/`.
+    - Examples:
+        - `zip archive.zip file1 file2` - Compresses multiple files into a ZIP archive.
+        - `zip -r archive.zip dir/` - Recursively compresses a directory.
+        - `zip -e archive.zip file` - Creates a password-protected ZIP file.
+        - `zip -9 archive.zip file` - Maximizes compression.
 ### **unzip**
 - Extracts files from a ZIP archive.
+    - Examples:
+        - `unzip archive.zip` - Extracts all files to the current directory.
+        - `unzip -d /path/to/dir archive.zip` - Extracts files to a specific directory.
+        - `unzip -l archive.zip` - Lists the contents of the ZIP file without extracting.
+        - `unzip -o archive.zip` - Overwrites existing files during extraction.
+        - `unzip -P password archive.zip` - Extracts files from a password-protected ZIP file.
 ### **tar**
-- Archives files.
-  - Example: `tar -cvf archive.tar dir/`.
+- Archives files (does not compress by default).
+    - Examples:
+        - **Archiving:**
+            - `tar -cvf archive.tar dir/` - Creates a tar archive of a directory.
+            - `tar -cvf archive.tar file1 file2` - Archives multiple files.
+        - **Viewing:**
+            - `tar -tvf archive.tar` - Lists the contents of a tar archive.
+        - **Extracting:**
+            - `tar -xvf archive.tar` - Extracts files from a tar archive.
+            - `tar -xvf archive.tar -C /path/to/dir` - Extracts to a specific directory.
+        - **Compressing with Gzip:**
+            - `tar -czvf archive.tar.gz dir/` - Creates a gzipped tar archive.
+            - `tar -xzvf archive.tar.gz` - Extracts a gzipped tar archive.
+        - **Compressing with Bzip2:**
+            - `tar -cjvf archive.tar.bz2 dir/` - Creates a bzip2-compressed tar archive.
+            - `tar -xjvf archive.tar.bz2` - Extracts a bzip2-compressed tar archive.
+        - **Incremental Backup:**
+            - `tar -cvf archive.tar --listed-incremental=snapshot.file dir/` - Creates an incremental backup of a directory.
 
 ---
 ## <span style="color:rgb(0, 112, 192)">8. Networking and Downloads</span>
@@ -368,15 +393,42 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
 
 ### **cal**
 - Displays a calendar.
-  - Example: `cal 2024`.
+    - Examples:
+        - `cal` - Displays the current month.
+        - `cal 2024` - Displays the calendar for the year 2024.
+        - `cal 11 2024` - Displays the calendar for November 2024.
+        - `ncal` - Displays the calendar in a vertical format.
 ### **wc**
 - Counts lines, words, and characters in files.
+    - Examples:
+        - `wc file.txt` - Displays the number of lines, words, and characters in the file.
+        - `wc -l file.txt` - Counts only the lines.
+        - `wc -w file.txt` - Counts only the words.
+        - `wc -c file.txt` - Counts only the bytes.
+        - `wc -m file.txt` - Counts only the characters.
 ### **echo**
-- Displays text to the terminal.
+- Displays text to the terminal or writes to files.
+    - Examples:
+        - `echo "Hello, World!"` - Prints the text to the terminal.
+        - `echo "Hello" > file.txt` - Writes the text to a file (overwrites if the file exists).
+        - `echo "Append this text" >> file.txt` - Appends the text to a file.
+        - `echo $HOME` - Displays the value of the `HOME` environment variable.
+        - `echo -e "Line1\nLine2"` - Enables interpretation of escape characters like `\n` for new lines.
 ### **expr**
-- Evaluates expressions.
+- Evaluates mathematical and string expressions.
+    - Examples:
+        - `expr 5 + 3` - Adds two numbers (output: `8`).
+        - `expr 10 / 2` - Divides two numbers (output: `5`).
+        - `expr "Hello" : "Hel"` - Returns the length of the matching prefix (output: `3`).
+        - `expr length "Hello"` - Returns the length of the string (output: `5`).
 ### **read**
-- Reads user input.
+- Reads user input from the terminal.
+    - Examples:
+        - `read name` - Prompts the user to input a value and stores it in the variable `name`.
+        - `echo "Enter your age: "; read age` - Displays a prompt and reads the input.
+        - `read -p "Enter your name: " name` - Displays a prompt inline and reads the input.
+        - `read -s password` - Reads input silently (useful for passwords).
+        - `read -t 10 input` - Waits for input for 10 seconds, then times out.
 
 ---
 # **Globbing in Linux**
