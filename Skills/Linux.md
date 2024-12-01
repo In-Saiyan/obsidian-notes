@@ -357,7 +357,8 @@ this forcefully kills the process with id = 1234 because signal number 9 is forc
     - Examples:
         - `unzip archive.zip` - Extracts all files to the current directory.
         - `unzip -d /path/to/dir archive.zip` - Extracts files to a specific directory.
-        - `unzip -l archive.zip` - Lists the contents of the ZIP file without extracting.
+
+		- `unzip -l archive.zip` - Lists the contents of the ZIP file without extracting.
         - `unzip -o archive.zip` - Overwrites existing files during extraction.
         - `unzip -P password archive.zip` - Extracts files from a password-protected ZIP file.
 ### **tar**
