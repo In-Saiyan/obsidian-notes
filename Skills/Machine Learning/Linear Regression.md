@@ -7,4 +7,4 @@ In this we try to fit a line which will estimate the target value by taking feat
 ![[Pasted image 20241202203052.png]]
 
 $$f_{w,b}(x)=wx+b=\hat y$$
-We set the value of w and b to get the most accurate prediction ($\hat y$).
+We set the value of w and b to get the most accurate possible prediction ($\hat y$).
