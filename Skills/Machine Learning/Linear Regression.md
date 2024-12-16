@@ -8,3 +8,6 @@ In this we try to fit a line which will estimate the target value by taking feat
 
 $$f_{w,b}(x)=wx+b=\hat y$$
 We set the value of w and b to get the most accurate possible prediction ($\hat y$).
+
+
+![[Pasted image 20241216223045.png]]
