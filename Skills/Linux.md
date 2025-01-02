@@ -453,3 +453,9 @@ Globbing refers to the use of wildcard patterns in Linux to match filenames and 
    ```bash
    ls *.txt
 ```
+
+
+---
+
+
+
