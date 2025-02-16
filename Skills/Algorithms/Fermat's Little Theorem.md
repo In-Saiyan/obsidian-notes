@@ -35,5 +35,6 @@ int main () {
     cout << binexp(a, MOD - 2) << endl;
 }
 
-// MOD = 1e9 + 7 for values under 10^9 and 10^18 + 3 for values under 10^18
+// MOD = 1e9 + 7 for values under 10^9 and 10^18 + 3 for values under 10^18 
+ok
 ```
