@@ -73,8 +73,14 @@ Amazon, Microsoft(Azure) and Google have their service-specific CNIs.
 > Not all of these use kube-proxy, for example Cilium uses EPPF, it manages networking at kernel layer instead of the Data layer.
 
 ### 3.1.3	Control Storage Interfaces (CSIs)
-They are used to provide durable, persistent storage to a workload running in kubernetes.
-These drivers also can(often) communicate to cloud provider to use their underlying block storage implementations which are cloud-service specific.
+They are used to provide durable, persistent storage to a workload running in kubernetes, these driver scan also (often) communicate to cloud provider to use their underlying block storage implementations which are cloud-service specific.
 
+These can also be used to provide information or configuration to a container at runtime. For ex: cert-manager can load a certificate at runtime, Secret Store CSI driver can load env variables into the file system at runtime as well.
 
+Ex:
+- Amazon EBS
+- Compute Engine persistent disk
+- Azure disk container
+- Cert Manager
+- Secret Store 
 
