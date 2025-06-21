@@ -84,3 +84,42 @@ Ex:
 - Cert Manager
 - Secret Store 
 
+# 4	Modules
+This provides mechanism to group resources within a cluster.
+There are 4 initial namespaces(used by kubernetes): 
+1. Defalt
+2. kube-node-lease
+3. kube-system
+4. kube-public
+
+![[Pasted image 20250622021228.png]]
+
+`Namespace.yaml`
+```yaml
+apiVersion: v2
+kind: Namespace
+metadata: 
+	name: non-default
+```
+
+`Tasks.yaml`
+```yaml
+version: 3
+tasks: 
+	01-create-namespaces: 
+		cmds: 
+			- kubectl create namspace 04--namespace-cli
+			desc: create a namespace in the cluster
+	
+	02-apply-namespaces:
+		cmds:
+			- kubectl apply -f namespace.yaml
+			desc: apply the namespace configuration to the cluster
+	
+	03-delete-namespace:
+		cmds:
+			- kubectl delete namespace 04--namespace-cli
+			- kubectl delete -f Namespace.yaml
+	
+```
+
