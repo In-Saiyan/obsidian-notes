@@ -113,7 +113,7 @@ tasks:
 	
 	02-apply-namespaces:
 		cmds:
-			- kubectl apply -f namespace.yaml
+			- kubectl apply -f Namespace.yaml
 			desc: apply the namespace configuration to the cluster
 	
 	03-delete-namespace:
