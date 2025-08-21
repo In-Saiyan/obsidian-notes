@@ -120,6 +120,5 @@ tasks:
 		cmds:
 			- kubectl delete namespace 04--namespace-cli
 			- kubectl delete -f Namespace.yaml
-	
+			desc: like bro really do you even need to write this anymore???!
 ```
-
