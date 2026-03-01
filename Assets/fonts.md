@@ -5,7 +5,7 @@
 
 # Code Fonts
 ## Lilex Nerd Font
-![[Pasted image 20260301145211.png]]
+![[./assets/Pasted image 20260301145211.png]]
 ## JetBrains Mono Nerd Font
 ![[Pasted image 20260301145227.png]]
 ## Iosevka Nerd Font
