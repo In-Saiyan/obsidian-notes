@@ -2,6 +2,9 @@
 
 Cloudflare Tunnel (`cloudflared`) exposes local services to the internet **without opening inbound ports** or configuring firewall rules. Traffic routes through Cloudflare's network.
 
+> [!WARNING]
+> SSL certificates can leak information about your origin server. To stay more anonymous, set the SSL/TLS mode to **Flexible** in the Cloudflare dashboard and use Cloudflare's default edge certificates. This avoids two-way (Full/Strict) SSL, so traffic between Cloudflare and your origin is plain HTTP — acceptable when both ends are on the same machine or a trusted network (e.g. `localhost` via tunnel).
+
 - [How It Works](#how-it-works)
 - [Installation](#installation)
 - [Quick Tunnel (no config)](#quick-tunnel-no-config)
