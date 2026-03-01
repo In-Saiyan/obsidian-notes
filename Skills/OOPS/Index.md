@@ -1,3 +1,9 @@
+# OOPS & Design Patterns
+
+- [[OOPS Basics]]
+
+---
+
 # Design Pattern Basics
 
 Design patterns provide reusable solutions to common software design problems. They help developers write cleaner, maintainable, and scalable applications.
