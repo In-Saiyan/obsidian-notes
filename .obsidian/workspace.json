@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "Index"
             }
-          },
-          {
-            "id": "978f627cc3e18260",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,11 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "978f627cc3e18260",
+  "active": "543eec20eb42c59a",
   "lastOpenFiles": [
+    "Skills/Algorithms/Fermat's Little Theorem.md",
+    "Skills/Algorithms/Algorithms.md",
+    "Skills/Index.md",
     "Theoratical/Index.md",
     "Index.md",
-    "Skills/Index.md",
     "SETUP-asset.png",
     "Skills/SpringBoot and Java/Collection Framework.md",
     "Skills/Kubernetes/Basics.md",
@@ -211,7 +202,6 @@
     "Skills/OOPS/OOPS Basics.md",
     "Skills/SpringBoot and Java/Index.md",
     "Skills/Linux/Bash.md",
-    "Skills/Algorithms/Algorithms.md",
     "Skills/OOPS/Special Design Patterns/Specification Design Pattern.md",
     "Skills/OOPS/Special Design Patterns",
     "Skills/SpringBoot and Java/OOPS in SpringBoot.md",
@@ -224,7 +214,6 @@
     "Skills/SpringBoot/Interfaces and Abstract Classes.md",
     "Skills/SpringBoot/Collection Framework.md",
     "Skills/SpringBoot/Basic REST API in SpringBoot.md",
-    "Skills/SpringBoot/Access Modifiers.md",
     "Skills/OOPS",
     "Skills/Regex",
     "Skills/Linux"
