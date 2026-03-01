@@ -11,14 +11,10 @@
             "id": "b065e0ed280c1dac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -186,6 +182,19 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
+    "Assets/fonts.md",
+    "Assets/Index.md",
+    "Assets/assets/Pasted image 20260301145426.png",
+    "Assets/assets/Pasted image 20260301145407.png",
+    "Assets/assets/Pasted image 20260301145308.png",
+    "Assets/assets/Pasted image 20260301145248.png",
+    "Assets/assets/Pasted image 20260301145227.png",
+    "Assets/assets/Pasted image 20260301145211.png",
+    "Assets/assets/Pasted image 20260301145152.png",
+    "Assets/assets/Pasted image 20260301145138.png",
+    "Assets/assets",
+    "Index.md",
+    "Assets",
     "LIT2024021_DC_ASSINGMENT.md",
     "Untitled 1",
     "SWE_Topics.md",
@@ -205,14 +214,6 @@
     "LIT2024021_a9_competitive_programming.md",
     "Pasted image 20251120165853.png",
     "Pasted image 20251120165618.png",
-    "Pasted image 20251120165443.png",
-    "Pasted image 20251120165256.png",
-    "Pasted image 20251120165020.png",
-    "Pasted image 20251120165013.png",
-    "Pasted image 20251120164709.png",
-    "Pasted image 20251120164655.png",
-    "Pasted image 20251120164243.png",
-    "Pasted image 20251120164141.png",
     "LIT2024021_daa_labs.html",
     "daa.md",
     "LIT2024021_daa_a7.md",
@@ -222,8 +223,6 @@
     "Untitled.md",
     "LIT2024021_a8_competitive_programming.md",
     "LIT2024021_DAA_A6_KNAPSACK.md",
-    "LIT2024021_DAA_A8_NQUEENS.md",
-    "LIT2024021_CP_ASS_7_ARYAN_SINGH.md",
-    "Welcome.md"
+    "LIT2024021_DAA_A8_NQUEENS.md"
   ]
 }
