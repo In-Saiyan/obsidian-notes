@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theoratical/Index.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,11 +183,11 @@
   },
   "active": "543eec20eb42c59a",
   "lastOpenFiles": [
+    "Theoretical/Index.md",
+    "Index.md",
     "Skills/Algorithms/Fermat's Little Theorem.md",
     "Skills/Algorithms/Algorithms.md",
     "Skills/Index.md",
-    "Theoratical/Index.md",
-    "Index.md",
     "SETUP-asset.png",
     "Skills/SpringBoot and Java/Collection Framework.md",
     "Skills/Kubernetes/Basics.md",
@@ -198,7 +198,7 @@
     "Skills/Docker/Basics.md",
     "Skills/Docker/Index.md",
     "Skills/Docker",
-    "Theoratical",
+    "Theoretical",
     "Skills/OOPS/OOPS Basics.md",
     "Skills/SpringBoot and Java/Index.md",
     "Skills/Linux/Bash.md",
