@@ -1,3 +1,11 @@
+---
+tags:
+  - java
+  - spring-boot
+  - rest-api
+  - web
+---
+
 To create a basic API in SpringBoot 
 
 1. Entity(Database Mapping) Model(Application Model) DTO(data transfer objects for abstraction)

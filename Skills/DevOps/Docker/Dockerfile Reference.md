@@ -1,3 +1,10 @@
+---
+tags:
+  - devops
+  - docker
+  - dockerfile
+---
+
 # Dockerfile Reference
 
 A **Dockerfile** is a text file containing ordered instructions to assemble a Docker image.

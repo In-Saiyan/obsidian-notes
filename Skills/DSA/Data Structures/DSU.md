@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - dsu
+  - union-find
+---
+
 # DSU (Disjoint Set Union / Union-Find)
 
 Tracks a set of elements partitioned into **disjoint subsets**. Supports near-constant time union and find.

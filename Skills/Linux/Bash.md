@@ -1,3 +1,11 @@
+---
+tags:
+  - linux
+  - bash
+  - shell
+  - scripting
+---
+
 # <span style="color:rgb(0, 176, 80)">Bash Commands</span>
 
 ## Table of Contents

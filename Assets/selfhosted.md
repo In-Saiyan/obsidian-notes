@@ -1,3 +1,11 @@
+---
+tags:
+  - assets
+  - selfhosted
+  - docker
+  - docker-compose
+---
+
 # Useful SelfHosted
 
 > [!DANGER]

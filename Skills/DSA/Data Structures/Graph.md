@@ -1,3 +1,10 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - graph
+---
+
 # Graph
 
 A collection of **vertices** (nodes) connected by **edges**.

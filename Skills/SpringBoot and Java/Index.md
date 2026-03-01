@@ -1,3 +1,10 @@
+---
+tags:
+  - index
+  - java
+  - spring-boot
+---
+
 # SpringBoot & Java
 
 - [Access Modifiers](<Access Modifiers.md>)

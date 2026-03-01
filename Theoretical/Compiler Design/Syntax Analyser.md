@@ -1,3 +1,11 @@
+---
+tags:
+  - compiler-design
+  - syntax-analysis
+  - parser
+  - cfg
+---
+
 # Syntax Analyser (Parser)
 
 The **Syntax Analyser** (parser) is the second phase of a compiler. It takes the token stream produced by the [Lexical Analyser](<Lexical Analyser.md>) and checks whether it conforms to the **context-free grammar** (CFG) of the language, producing a **parse tree** (or abstract syntax tree).

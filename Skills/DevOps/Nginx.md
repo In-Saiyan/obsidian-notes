@@ -1,3 +1,12 @@
+---
+tags:
+  - devops
+  - nginx
+  - web-server
+  - reverse-proxy
+  - load-balancer
+---
+
 # Nginx
 
 A high-performance **web server**, **reverse proxy**, and **load balancer**.

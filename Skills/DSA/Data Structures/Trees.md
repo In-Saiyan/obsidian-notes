@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - tree
+  - binary-tree
+  - bst
+---
+
 # Trees
 
 Hierarchical data structure with a root node and children.

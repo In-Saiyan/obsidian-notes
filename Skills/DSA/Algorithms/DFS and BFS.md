@@ -1,3 +1,13 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - graph
+  - dfs
+  - bfs
+  - traversal
+---
+
 # DFS & BFS
 
 Graph/tree traversal fundamentals.

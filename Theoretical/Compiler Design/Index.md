@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - compiler-design
+---
+
 # Compiler Design — Index
 
 1. [Basic](Basic.md) — Language Processing, Stages of Compilation, Passes, Symbol Table, Error Handling

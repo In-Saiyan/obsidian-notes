@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - number-theory
+  - math
+  - modular-arithmetic
+---
+
 # Number Theory
 
 - [Fermat's Little Theorem](#fermats-little-theorem)

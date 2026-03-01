@@ -1,3 +1,10 @@
+---
+tags:
+  - compiler-design
+  - optimization
+  - performance
+---
+
 # Code Optimisation
 
 **Code optimisation** transforms the intermediate code (or target code) to improve **execution speed**, **memory usage**, or **power consumption** — without changing the program's observable behaviour.

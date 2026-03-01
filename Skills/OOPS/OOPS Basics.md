@@ -1,3 +1,9 @@
+---
+tags:
+  - oops
+  - fundamentals
+---
+
 # OOPS Basics
 
 Object-Oriented Programming (OOP) is a programming paradigm that organises software design around **objects** — entities that bundle state (fields) and behaviour (methods) together.

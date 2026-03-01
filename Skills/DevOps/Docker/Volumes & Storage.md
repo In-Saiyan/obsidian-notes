@@ -1,3 +1,11 @@
+---
+tags:
+  - devops
+  - docker
+  - storage
+  - volumes
+---
+
 # Docker Volumes & Storage
 
 - [Storage Types](#storage-types)

@@ -1,3 +1,10 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - stack
+---
+
 # Stack
 
 **LIFO** (Last In, First Out) — the last element added is the first one removed.

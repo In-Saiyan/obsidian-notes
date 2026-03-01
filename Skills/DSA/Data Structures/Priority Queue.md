@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - priority-queue
+  - heap
+---
+
 # Priority Queue / Heap
 
 A container where the **highest (or lowest) priority** element is always at the front.

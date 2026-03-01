@@ -1,3 +1,11 @@
+---
+tags:
+  - compiler-design
+  - intermediate-code
+  - ir
+  - three-address-code
+---
+
 # Intermediate Code Generation
 
 After [Semantic Analysis](<Semantic Analysis.md>), the compiler translates the annotated AST into an **intermediate representation (IR)** — a machine-independent form that sits between the source language and the target machine code.

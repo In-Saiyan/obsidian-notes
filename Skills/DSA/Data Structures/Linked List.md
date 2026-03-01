@@ -1,3 +1,10 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - linked-list
+---
+
 # Linked List
 
 A linear data structure where elements are connected via pointers.

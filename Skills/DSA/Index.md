@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - dsa
+---
+
 # DSA
 
 ## Algorithms

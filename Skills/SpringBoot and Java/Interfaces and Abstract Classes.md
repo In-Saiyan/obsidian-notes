@@ -1,3 +1,11 @@
+---
+tags:
+  - java
+  - interfaces
+  - abstract-classes
+  - oops
+---
+
 Java provides two powerful mechanisms for achieving abstraction: abstract classes and interfaces. Both serve as blueprints for other classes but have distinct characteristics and use cases.
 
 ## Abstract Classes

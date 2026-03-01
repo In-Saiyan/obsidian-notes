@@ -1,3 +1,11 @@
+---
+tags:
+  - compiler-design
+  - lexical-analysis
+  - scanner
+  - tokens
+---
+
 # Lexical Analyser (Scanner)
 
 The **Lexical Analyser** is the first phase of a compiler. It reads the raw source code as a stream of characters and converts it into a stream of **tokens** — the smallest meaningful units of the language.

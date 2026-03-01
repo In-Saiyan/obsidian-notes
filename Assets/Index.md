@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - assets
+---
+
 # Index
 
 # 1. [Fonts](./fonts.md)

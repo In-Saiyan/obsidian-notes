@@ -1,3 +1,12 @@
+---
+tags:
+  - devops
+  - kubernetes
+  - kubectl
+  - testing
+  - hands-on
+---
+
 # Kubernetes Practical — Test Cases & Exercises
 
 A set of hands-on exercises to validate your understanding of core Kubernetes concepts.

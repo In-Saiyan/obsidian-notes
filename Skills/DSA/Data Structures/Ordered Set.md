@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - ordered-set
+  - pb_ds
+  - cpp
+---
+
 # Ordered Set (Policy-Based)
 
 A **balanced BST** from GCC's policy-based data structures that supports all `std::set` operations **plus** order-statistics queries in $O(\log n)$.

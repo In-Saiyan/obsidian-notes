@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - gcd
+  - number-theory
+  - math
+---
+
 # Euclidean GCD
 
 Find the **Greatest Common Divisor** of two integers.

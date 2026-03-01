@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - devops
+---
+
 # DevOps
 
 1. [Kubernetes](./Kubernetes/Index.md)

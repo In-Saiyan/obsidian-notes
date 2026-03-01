@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - binary-search
+  - searching
+---
+
 # Binary Search
 
 Find target in a **sorted** array, or find the boundary where a condition changes.

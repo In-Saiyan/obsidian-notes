@@ -1,3 +1,10 @@
+---
+tags:
+  - java
+  - spring-boot
+  - oops
+---
+
 Since the whole SpringBoot framework follows the Object Oriented Paradigm of Programming, it also exploits to principles of OOPS in order to enhance the implementation patters the framework.
 
 ## Encapsulation

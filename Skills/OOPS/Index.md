@@ -1,3 +1,10 @@
+---
+tags:
+  - index
+  - oops
+  - design-patterns
+---
+
 # OOPS & Design Patterns
 
 - [OOPS Basics](<OOPS Basics.md>)

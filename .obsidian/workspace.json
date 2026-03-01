@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/DSA/Algorithms/Number Theory.md",
+                "file": "Theoretical/Compiler Design/Lexical Analyser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Number Theory"
+              "title": "Lexical Analyser"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#scanner  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,11 +187,20 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
+    "Skills/DSA/Data Structures/DSU.md",
     "Assets/Index.md",
+    "Assets/fonts.md",
+    "Assets/shadcn.md",
+    "Assets/selfhosted.md",
+    "Skills/OOPS/Index.md",
+    "Skills/DSA/Algorithms/Euclidean GCD.md",
+    "Skills/DSA/Algorithms/Dynamic Programming.md",
+    "Skills/Regex/Regex.md",
+    "SETUP-asset.png",
+    "Skills/DSA/Algorithms/Number Theory.md",
     "Skills/DevOps/Index.md",
     "Skills/DevOps/Nginx.md",
     "Skills/DevOps/Cloudflared.md",
-    "Assets/selfhosted.md",
     "Skills/DevOps/Docker/Docker Compose.md",
     "Skills/DevOps/Docker/Basics.md",
     "Skills/DevOps/Kubernetes/Practical.md",
@@ -198,23 +208,15 @@
     "Skills/DevOps/Kubernetes/Basics.md",
     "Skills/Index.md",
     "Skills/DevOps/Docker/Index.md",
-    "Assets/shadcn.md",
     "Skills/DevOps/Docker/Volumes & Storage.md",
     "Skills/DevOps/Docker/Dockerfile Reference.md",
-    "Skills/DSA/Algorithms/Euclidean GCD.md",
     "Skills/DevOps/Docker/Networking.md",
     "Skills/DevOps/Docker",
     "Skills/DevOps/Docker/Networking.md",
     "Skills/DevOps/Docker",
     "Skills/DevOps",
-    "Skills/DSA/Algorithms/Number Theory.md",
     "Skills/DSA/Data Structures/Ordered Set.md",
     "Skills/DSA/Algorithms/Fermat's Little Theorem.md",
-    "Skills/DSA/Data Structures/Trie.md",
-    "Skills/DSA/Data Structures/Hash Map and Set.md",
-    "Skills/DSA/Data Structures/Queue and Deque.md",
-    "Skills/DSA/Data Structures/Stack.md",
-    "Skills/DSA/Data Structures/Priority Queue.md",
     "Skills/DSA/Data Structures",
     "Skills/DSA/Algorithms",
     "Assets/assets/Pasted image 20260301145426.png",
@@ -230,7 +232,6 @@
     "Untitled 1",
     "Untitled",
     "LIT2024021_daa_labs.pdf",
-    "Pasted image 20251120165853.png",
-    "Pasted image 20251120165618.png"
+    "Pasted image 20251120165853.png"
   ]
 }

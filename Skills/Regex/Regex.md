@@ -1,3 +1,9 @@
+---
+tags:
+  - regex
+  - pattern-matching
+---
+
 ### <span style="color:rgb(0, 112, 192)">1. Basics of Regex</span>
 
 A regex is made up of _literals_ and _special characters_.

@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - skills
+---
+
 # 0. [Bash](./Linux/Bash.md)
 # 1. [DSA](./DSA/Index.md)
 # 2. [Regex](./Regex/Regex.md)

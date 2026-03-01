@@ -1,3 +1,10 @@
+---
+tags:
+  - oops
+  - design-patterns
+  - structural
+---
+
 # Structural Design Patterns
 
 Structural patterns explain how classes and objects are **combined to form larger structures**. They use **inheritance** and **composition** to simplify relationships between components and improve code flexibility.

@@ -1,3 +1,12 @@
+---
+tags:
+  - devops
+  - cloudflare
+  - tunnel
+  - networking
+  - security
+---
+
 # Cloudflared (Cloudflare Tunnel)
 
 Cloudflare Tunnel (`cloudflared`) exposes local services to the internet **without opening inbound ports** or configuring firewall rules. Traffic routes through Cloudflare's network.

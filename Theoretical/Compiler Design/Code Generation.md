@@ -1,3 +1,10 @@
+---
+tags:
+  - compiler-design
+  - code-generation
+  - assembly
+---
+
 # Code Generation
 
 **Code generation** is the final phase of the compiler. It translates the optimised intermediate representation (IR) into **target machine code** — assembly instructions for a specific processor architecture.

@@ -1,3 +1,10 @@
+---
+tags:
+  - java
+  - data-types
+  - fundamentals
+---
+
 ## Primitive Vs Non Primitive Data Types
 Primitive data types are usually stored on the memory stack and are faster.
 

@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - queue
+  - deque
+---
+
 # Queue & Deque
 
 ---

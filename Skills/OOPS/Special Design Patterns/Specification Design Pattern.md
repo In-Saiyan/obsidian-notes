@@ -1,3 +1,10 @@
+---
+tags:
+  - oops
+  - design-patterns
+  - specification
+---
+
 # Specification Design Pattern
 
 The **Specification Pattern** encapsulates business rules into reusable, composable, and testable objects. Instead of scattering `if` conditions throughout your codebase, each rule becomes a first-class object that can be **combined** using logical operators (`AND`, `OR`, `NOT`).

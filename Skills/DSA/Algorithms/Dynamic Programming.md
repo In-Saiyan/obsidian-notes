@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - dynamic-programming
+  - optimization
+  - memoization
+---
+
 # Dynamic Programming
 
 Solve problems by breaking them into **overlapping subproblems** and storing results.

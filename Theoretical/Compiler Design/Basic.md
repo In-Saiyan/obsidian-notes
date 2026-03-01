@@ -1,3 +1,10 @@
+---
+tags:
+  - compiler-design
+  - language-processing
+  - fundamentals
+---
+
 # 1 Language Processing
 
 A **language processor** is a program that takes source code written in one language and translates / prepares it for execution. The complete pipeline from source to executable involves several components.

@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - hash-map
+  - hash-set
+  - hashing
+---
+
 # Hash Map & Hash Set
 
 Unordered containers with **average $O(1)$** lookup, insert, and delete.

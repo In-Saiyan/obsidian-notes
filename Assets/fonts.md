@@ -1,3 +1,10 @@
+---
+tags:
+  - assets
+  - fonts
+  - resources
+---
+
 # Resources
 - [Programming Fonts](https://www.programmingfonts.org)
 - [NerdFonts.com](https://www.nerdfonts.com//)

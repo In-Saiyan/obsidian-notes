@@ -1,3 +1,11 @@
+---
+tags:
+  - assets
+  - shadcn
+  - ui-components
+  - react
+---
+
 # For Shadcn
 
 # Components and Themes

@@ -1,3 +1,11 @@
+---
+tags:
+  - oops
+  - design-patterns
+  - advanced
+  - architecture
+---
+
 # Advanced Design Patterns
 
 Advanced topics cover architectural principles and deeper system-design concepts. They help you build enterprise-level, scalable, and robust software systems.

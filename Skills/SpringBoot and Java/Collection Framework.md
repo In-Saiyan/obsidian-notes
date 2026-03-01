@@ -1,3 +1,10 @@
+---
+tags:
+  - java
+  - collections
+  - data-structures
+---
+
 Java Collection framework is a set of comprehensive data structures to store, group and manipulate objects efficiently.
 
 ## List Interface:

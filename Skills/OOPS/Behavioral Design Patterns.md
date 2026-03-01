@@ -1,3 +1,10 @@
+---
+tags:
+  - oops
+  - design-patterns
+  - behavioral
+---
+
 # Behavioral Design Patterns
 
 Behavioral patterns define how objects **communicate**, **distribute responsibilities**, and **manage control flow**. They focus on interaction and the assignment of responsibilities between objects.

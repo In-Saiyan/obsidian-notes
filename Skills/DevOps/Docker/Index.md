@@ -1,3 +1,9 @@
+---
+tags:
+  - index
+  - docker
+---
+
 # Docker
 
 - [Basics](./Basics.md)

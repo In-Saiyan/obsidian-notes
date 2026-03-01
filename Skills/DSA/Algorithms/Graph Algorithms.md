@@ -1,3 +1,13 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - graph
+  - shortest-path
+  - mst
+  - dijkstra
+---
+
 # Graph Algorithms — Shortest Path & MST
 
 ---

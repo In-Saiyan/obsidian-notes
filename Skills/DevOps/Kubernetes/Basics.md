@@ -1,3 +1,11 @@
+---
+tags:
+  - devops
+  - kubernetes
+  - containers
+  - orchestration
+---
+
 # 1	Cluster
 A cluster is a set of resources that makes up a Kubernetes system.
 It comprises of:

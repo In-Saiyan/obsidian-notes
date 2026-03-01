@@ -1,3 +1,10 @@
+---
+tags:
+  - java
+  - access-modifiers
+  - fundamentals
+---
+
 # Access Modifiers and Member Variable Scope
 | Modifier      | Same Class | Same Package | Subclass (Different Package) | Different Package (Non-subclass) | Keyword Required |
 | ------------- | ---------- | ------------ | ---------------------------- | -------------------------------- | ---------------- |

@@ -1,3 +1,12 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - sparse-table
+  - rmq
+  - range-query
+---
+
 # Sparse Table
 
 Static range query structure. Answers **idempotent** queries (min, max, gcd) in $O(1)$ after $O(n \log n)$ preprocessing.

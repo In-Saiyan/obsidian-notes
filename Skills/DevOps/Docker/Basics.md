@@ -1,3 +1,10 @@
+---
+tags:
+  - devops
+  - docker
+  - containers
+---
+
 # Docker Basics
 
 - [What is Docker?](#what-is-docker)

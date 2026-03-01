@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - algorithms
+  - number-theory
+  - math
+---
+
 # Fermat's Little Theorem
 
 - [Concept](#concept)

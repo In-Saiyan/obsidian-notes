@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - segment-tree
+  - range-query
+---
+
 # Segment Tree
 
 Supports **range queries** and **point/range updates** in $O(\log n)$.

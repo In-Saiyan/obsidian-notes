@@ -1,3 +1,11 @@
+---
+tags:
+  - dsa
+  - data-structures
+  - trie
+  - prefix-tree
+---
+
 # Trie (Prefix Tree)
 
 Tree structure for efficient **prefix-based** string operations.
