@@ -1,7 +1,5 @@
 Java Collection framework is a set of comprehensive data structures to store, group and manipulate objects efficiently.
 
-![[Pasted image 20250525174049.png]]
-
 ## List Interface:
 ### ArrayList
 Internally Implemented re-sizable array.
