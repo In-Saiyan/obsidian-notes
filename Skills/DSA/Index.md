@@ -11,8 +11,15 @@
 
 ## Data Structures
 
-1. [Linked List](./Data%20Structures/Linked%20List.md)
-2. [Trees](./Data%20Structures/Trees.md)
-3. [Graph](./Data%20Structures/Graph.md)
-4. [Sparse Table](./Data%20Structures/Sparse%20Table.md)
-5. [Segment Tree](./Data%20Structures/Segment%20Tree.md)
+1. [Stack](./Data%20Structures/Stack.md)
+2. [Queue & Deque](./Data%20Structures/Queue%20and%20Deque.md)
+3. [Linked List](./Data%20Structures/Linked%20List.md)
+4. [Hash Map & Set](./Data%20Structures/Hash%20Map%20and%20Set.md)
+5. [Priority Queue / Heap](./Data%20Structures/Priority%20Queue.md)
+6. [DSU (Union-Find)](./Data%20Structures/DSU.md)
+7. [Trie](./Data%20Structures/Trie.md)
+8. [Trees](./Data%20Structures/Trees.md)
+9. [Graph](./Data%20Structures/Graph.md)
+10. [Sparse Table](./Data%20Structures/Sparse%20Table.md)
+11. [Segment Tree](./Data%20Structures/Segment%20Tree.md)
+12. [Ordered Set (pb_ds)](./Data%20Structures/Ordered%20Set.md)
