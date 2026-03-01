@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theoretical/Compiler Design/Index.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,11 +186,13 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
+    "README.md",
+    "Index.md",
+    "Assets/fonts.md",
+    "Theoretical/Compiler Design/Index.md",
     "Theoretical/Index.md",
     "Theoretical/Compiler Design/Basic.md",
-    "Theoretical/Compiler Design/Index.md",
     "Assets/Index.md",
-    "Assets/fonts.md",
     "Skills/Docker/Networking.md",
     "Assets/assets/Pasted image 20260301145426.png",
     "Assets/assets/Pasted image 20260301145407.png",
@@ -201,7 +203,6 @@
     "Assets/assets/Pasted image 20260301145152.png",
     "Assets/assets/Pasted image 20260301145138.png",
     "Assets/assets",
-    "Index.md",
     "Assets",
     "LIT2024021_DC_ASSINGMENT.md",
     "Untitled 1",
@@ -226,7 +227,6 @@
     "daa.md",
     "LIT2024021_daa_a7.md",
     "Untitled 1.md",
-    "Untitled 2.md",
-    "LIT2024021_daa_a9.md"
+    "Untitled 2.md"
   ]
 }
