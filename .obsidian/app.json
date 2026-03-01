@@ -7,5 +7,6 @@
     "downscalePercent": 100
   },
   "vimMode": true,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "alwaysUpdateLinks": true
 }
