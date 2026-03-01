@@ -1,1 +1,2 @@
-# 1. [Compiler Design](<Theoretical/Compiler Design/Index.md>)
+# 1. [Compiler Design](<./Compiler Design/Index.md>)
+

@@ -1,4 +1,6 @@
 {
   "cssTheme": "Blue Topaz",
-  "accentColor": "#a100db"
+  "enabledCssSnippets": [
+    "something"
+  ]
 }

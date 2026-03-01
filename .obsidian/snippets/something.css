@@ -1,0 +1,206 @@
+@media print {
+  /* Force print color rendering */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Page + preview background */
+  body,
+  .markdown-preview-view,
+  .markdown-preview-sizer {
+    background: #1e1e1e !important;
+    color: #e8e8e8 !important;
+  }
+
+  @page {
+    background: #1e1e1e !important;
+    /* margin: 0; */
+  }
+
+  /* Headings - distinct colors per level */
+  h1 {
+    color: #9aeaff !important; /* blue */
+    border-bottom: 2px solid #ff5966 !important;
+  }
+
+  h2 {
+    color: #bd93f9 !important; /* purple */
+  }
+
+  h3 {
+    color: #50fa7b !important; /* green */
+  }
+
+  h4 {
+    color: #8be9fd !important; /* cyan */
+  }
+
+  h5 {
+    color: #ffb86c !important; /* orange */
+  }
+
+  h6 {
+    color: #f1fa8c !important; /* yellow */
+  }
+
+  /* LaTeX/Math styling */
+  .MathJax,
+  .MathJax_Display,
+  mjx-container,
+  mjx-math,
+  .katex,
+  .katex-display,
+  .math-inline,
+  .math-block {
+    color: #f8f8f2 !important;
+    background: transparent !important;
+  }
+
+  mjx-mfrac,
+  mjx-oper,
+  .katex .mfrac,
+  .katex .mop {
+    color: #8be9fd !important; /* cyan for operators/fractions */
+  }
+
+  mjx-mi,
+  .katex .mord.mathdefault {
+    color: #ffb86c !important; /* orange for variables */
+  }
+
+  mjx-mn,
+  .katex .mord.mathnormal {
+    color: #bd93f9 !important; /* purple for numbers */
+  }
+
+  /* Code blocks container */
+  pre {
+    background: #282a36 !important;
+    border: 1px solid #44475a !important;
+    padding: 12px !important;
+    border-radius: 6px !important;
+  }
+
+  /* Remove line-by-line borders */
+  pre span,
+  pre code span {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Code styling */
+  code,
+  pre code {
+    background: #282a36 !important;
+    color: #f8f8f2 !important;
+  }
+
+  /* Inline code */
+  :not(pre) > code {
+    background: #44475a !important;
+    color: #f8f8f2 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+  }
+
+  /* Syntax highlighting tokens */
+  .token.keyword,
+  .token.control,
+  .token.directive {
+    color: #ff79c6 !important; /* pink */
+  }
+
+  .token.string,
+  .token.regex {
+    color: #f1fa8c !important; /* yellow */
+  }
+
+  .token.number,
+  .token.boolean {
+    color: #bd93f9 !important; /* purple */
+  }
+
+  .token.function,
+  .token.class-name {
+    color: #50fa7b !important; /* green */
+  }
+
+  .token.comment,
+  .token.prolog,
+  .token.doctype {
+    color: #6272a4 !important; /* muted blue */
+    font-style: italic !important;
+  }
+
+  .token.operator,
+  .token.punctuation {
+    color: #f8f8f2 !important; /* light gray */
+  }
+
+  .token.property,
+  .token.tag,
+  .token.constant {
+    color: #8be9fd !important; /* cyan */
+  }
+
+  .token.attr-name,
+  .token.builtin,
+  .token.selector {
+    color: #50fa7b !important; /* green */
+  }
+
+  .token.attr-value,
+  .token.char,
+  .token.inserted {
+    color: #f1fa8c !important; /* yellow */
+  }
+
+  /* Links */
+  a {
+    color: #8be9fd !important;
+    text-decoration: underline !important;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    border-left: 4px solid #bd93f9 !important;
+    background: #282a36 !important;
+    color: #f8f8f2 !important;
+    padding: 10px 15px !important;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse !important;
+    background: #282a36 !important;
+  }
+
+  th {
+    background: #44475a !important;
+    color: #f8f8f2 !important;
+    border: 1px solid #6272a4 !important;
+    padding: 8px !important;
+  }
+
+  td {
+    border: 1px solid #6272a4 !important;
+    color: #e8e8e8 !important;
+    padding: 8px !important;
+  }
+
+  /* Lists */
+  ul, ol {
+    color: #e8e8e8 !important;
+  }
+
+  li::marker {
+    color: #bd93f9 !important;
+  }
+
+  /* Horizontal rules */
+  hr {
+    border-color: #6272a4 !important;
+  }
+}
+
