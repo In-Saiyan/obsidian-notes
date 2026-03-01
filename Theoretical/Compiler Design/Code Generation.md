@@ -99,7 +99,7 @@ When generating code for `x = y op z`, `getReg` determines which register to use
 
 ### 4.4 Live Variable Info → Smarter getReg
 
-If we know **live variables** at each point (from [[Code Optimisation]] data-flow analysis), we can:
+If we know **live variables** at each point (from [Code Optimisation](<Code Optimisation.md>) data-flow analysis), we can:
 - Never spill a dead variable (already not needed).
 - Prefer to evict the variable whose **next use** is farthest in the future (Belady's algorithm analogy).
 

@@ -2,7 +2,7 @@
 Primitive data types are usually stored on the memory stack and are faster.
 
 # Primitive and Non Primitive data types in Java
-![[Pasted image 20250525163932.png]]
+![](Pasted%20image%2020250525163932.png)
 
 ## Primitive
 |Type|Description|Default|Size|Example Literals|Range of values|

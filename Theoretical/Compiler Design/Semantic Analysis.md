@@ -1,6 +1,6 @@
 # Semantic Analysis
 
-**Semantic analysis** is the third phase of a compiler. It uses the AST from the [[Syntax Analyser]] along with the **symbol table** to check whether the program is meaningful — i.e. that it follows the language's **type rules**, **scope rules**, and other context-sensitive constraints that cannot be captured by a context-free grammar.
+**Semantic analysis** is the third phase of a compiler. It uses the AST from the [Syntax Analyser](<Syntax Analyser.md>) along with the **symbol table** to check whether the program is meaningful — i.e. that it follows the language's **type rules**, **scope rules**, and other context-sensitive constraints that cannot be captured by a context-free grammar.
 
 $$
 \text{AST} \xrightarrow{\text{Semantic Analyser}} \text{Annotated AST (with types, coercions, resolved references)}

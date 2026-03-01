@@ -2,16 +2,16 @@
 
 A set of hands-on exercises to validate your understanding of core Kubernetes concepts.
 
-- [[#1 Cluster & Node Verification]]
-- [[#2 Namespace Operations]]
-- [[#3 Pod Lifecycle]]
-- [[#4 Deployment Management]]
-- [[#5 Service Networking]]
-- [[#6 ConfigMap & Secret Injection]]
-- [[#7 Health Probes]]
-- [[#8 Resource Limits & QoS]]
-- [[#9 Rolling Updates & Rollbacks]]
-- [[#10 Debugging & Troubleshooting]]
+- [1 Cluster & Node Verification](#1-cluster-node-verification)
+- [2 Namespace Operations](#2-namespace-operations)
+- [3 Pod Lifecycle](#3-pod-lifecycle)
+- [4 Deployment Management](#4-deployment-management)
+- [5 Service Networking](#5-service-networking)
+- [6 ConfigMap & Secret Injection](#6-configmap-secret-injection)
+- [7 Health Probes](#7-health-probes)
+- [8 Resource Limits & QoS](#8-resource-limits-qos)
+- [9 Rolling Updates & Rollbacks](#9-rolling-updates-rollbacks)
+- [10 Debugging & Troubleshooting](#10-debugging-troubleshooting)
 
 ---
 

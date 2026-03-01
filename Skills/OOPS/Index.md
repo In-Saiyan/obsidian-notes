@@ -1,6 +1,6 @@
 # OOPS & Design Patterns
 
-- [[OOPS Basics]]
+- [OOPS Basics](<OOPS Basics.md>)
 
 ---
 
@@ -8,9 +8,9 @@
 
 Design patterns provide reusable solutions to common software design problems. They help developers write cleaner, maintainable, and scalable applications.
 
-- [[#Introduction]]
-- [[#Types of Design Patterns]]
-- [[#Gang of Four (GoF) Overview]]
+- [Introduction](#introduction)
+- [Types of Design Patterns](#types-of-design-patterns)
+- [Gang of Four (GoF) Overview](#gang-of-four-gof-overview)
 
 ---
 
@@ -66,65 +66,65 @@ They catalogued **23 design patterns** in three categories:
 
 # Creational Design Patterns
 
-These [[Creational Design Patterns]] deal with object creation in a flexible and efficient manner. They help you control how and when objects are instantiated.
+These [Creational Design Patterns](<Creational Design Patterns.md>) deal with object creation in a flexible and efficient manner. They help you control how and when objects are instantiated.
 
-- [[Creational Design Patterns#1 Singleton Pattern|Singleton Pattern]]
-- [[Creational Design Patterns#2 Factory Method Pattern|Factory Method Pattern]]
-- [[Creational Design Patterns#3 Abstract Factory Pattern|Abstract Factory Pattern]]
-- [[Creational Design Patterns#4 Builder Pattern|Builder Pattern]]
-- [[Creational Design Patterns#5 Prototype Pattern|Prototype Pattern]]
-- [[Creational Design Patterns#6 Object Pool Pattern|Object Pool Pattern]]
-- [[Creational Design Patterns#7 Lazy Initialization|Lazy Initialization]]
+- [Singleton Pattern](<Creational Design Patterns.md#1-singleton-pattern>)
+- [Factory Method Pattern](<Creational Design Patterns.md#2-factory-method-pattern>)
+- [Abstract Factory Pattern](<Creational Design Patterns.md#3-abstract-factory-pattern>)
+- [Builder Pattern](<Creational Design Patterns.md#4-builder-pattern>)
+- [Prototype Pattern](<Creational Design Patterns.md#5-prototype-pattern>)
+- [Object Pool Pattern](<Creational Design Patterns.md#6-object-pool-pattern>)
+- [Lazy Initialization](<Creational Design Patterns.md#7-lazy-initialization>)
 
 ---
 
 # Structural Design Patterns
 
-[[Structural Design Patterns]] explain how classes and objects are combined to form larger structures. They improve code flexibility by simplifying relationships between components.
+[Structural Design Patterns](<Structural Design Patterns.md>) explain how classes and objects are combined to form larger structures. They improve code flexibility by simplifying relationships between components.
 
-- [[Structural Design Patterns#1 Adapter Pattern|Adapter Pattern]]
-- [[Structural Design Patterns#2 Decorator Pattern|Decorator Pattern]]
-- [[Structural Design Patterns#3 Facade Pattern|Facade Pattern]]
-- [[Structural Design Patterns#4 Composite Pattern|Composite Pattern]]
-- [[Structural Design Patterns#5 Proxy Pattern|Proxy Pattern]]
-- [[Structural Design Patterns#6 Bridge Pattern|Bridge Pattern]]
-- [[Structural Design Patterns#7 Flyweight Pattern|Flyweight Pattern]]
+- [Adapter Pattern](<Structural Design Patterns.md#1-adapter-pattern>)
+- [Decorator Pattern](<Structural Design Patterns.md#2-decorator-pattern>)
+- [Facade Pattern](<Structural Design Patterns.md#3-facade-pattern>)
+- [Composite Pattern](<Structural Design Patterns.md#4-composite-pattern>)
+- [Proxy Pattern](<Structural Design Patterns.md#5-proxy-pattern>)
+- [Bridge Pattern](<Structural Design Patterns.md#6-bridge-pattern>)
+- [Flyweight Pattern](<Structural Design Patterns.md#7-flyweight-pattern>)
 
 ---
 
 # Behavioral Design Patterns
 
-[[Behavioral Design Patterns]] define how objects communicate and distribute responsibilities. They help manage workflows, interactions, and decision-making within a system.
+[Behavioral Design Patterns](<Behavioral Design Patterns.md>) define how objects communicate and distribute responsibilities. They help manage workflows, interactions, and decision-making within a system.
 
-- [[Behavioral Design Patterns#1 Observer Pattern|Observer Pattern]]
-- [[Behavioral Design Patterns#2 Strategy Pattern|Strategy Pattern]]
-- [[Behavioral Design Patterns#3 Command Pattern|Command Pattern]]
-- [[Behavioral Design Patterns#4 Chain of Responsibility Pattern|Chain of Responsibility Pattern]]
-- [[Behavioral Design Patterns#5 Template Method Pattern|Template Method Pattern]]
-- [[Behavioral Design Patterns#6 Iterator Pattern|Iterator Pattern]]
-- [[Behavioral Design Patterns#7 State Pattern|State Pattern]]
-- [[Behavioral Design Patterns#8 Mediator Pattern|Mediator Pattern]]
-- [[Behavioral Design Patterns#9 Memento Pattern|Memento Pattern]]
-- [[Behavioral Design Patterns#10 Visitor Pattern|Visitor Pattern]]
+- [Observer Pattern](<Behavioral Design Patterns.md#1-observer-pattern>)
+- [Strategy Pattern](<Behavioral Design Patterns.md#2-strategy-pattern>)
+- [Command Pattern](<Behavioral Design Patterns.md#3-command-pattern>)
+- [Chain of Responsibility Pattern](<Behavioral Design Patterns.md#4-chain-of-responsibility-pattern>)
+- [Template Method Pattern](<Behavioral Design Patterns.md#5-template-method-pattern>)
+- [Iterator Pattern](<Behavioral Design Patterns.md#6-iterator-pattern>)
+- [State Pattern](<Behavioral Design Patterns.md#7-state-pattern>)
+- [Mediator Pattern](<Behavioral Design Patterns.md#8-mediator-pattern>)
+- [Memento Pattern](<Behavioral Design Patterns.md#9-memento-pattern>)
+- [Visitor Pattern](<Behavioral Design Patterns.md#10-visitor-pattern>)
 
 ---
 
 # Advanced Design Patterns
 
-[[Advanced Design Patterns]] cover architectural principles and deeper system-design concepts. They help you build enterprise-level, scalable, and robust software systems.
+[Advanced Design Patterns](<Advanced Design Patterns.md>) cover architectural principles and deeper system-design concepts. They help you build enterprise-level, scalable, and robust software systems.
 
-- [[Advanced Design Patterns#1 SOLID Principles|SOLID Principles]]
-- [[Advanced Design Patterns#2 DRY Principle|DRY Principle]]
-- [[Advanced Design Patterns#3 KISS Principle|KISS Principle]]
-- [[Advanced Design Patterns#4 YAGNI Principle|YAGNI Principle]]
-- [[Advanced Design Patterns#5 Dependency Injection Pattern|Dependency Injection Pattern]]
-- [[Advanced Design Patterns#6 Composition vs Inheritance|Composition Vs Inheritance]]
-- [[Advanced Design Patterns#7 Event-Driven Architecture|Event-Driven Architecture]]
-- [[Advanced Design Patterns#8 CQRS Design Pattern|CQRS Design Pattern]]
-- [[Advanced Design Patterns#9 Event Sourcing Patterns|Event Sourcing Patterns]]
-- [[Advanced Design Patterns#10 CQRS vs Event Sourcing|CQRS Vs Event Sourcing Patterns]]
-- [[Advanced Design Patterns#11 Repository Pattern|Repository Pattern]]
-- [[Advanced Design Patterns#12 MVC Design Pattern|MVC Design Pattern]]
+- [SOLID Principles](<Advanced Design Patterns.md#1-solid-principles>)
+- [DRY Principle](<Advanced Design Patterns.md#2-dry-principle>)
+- [KISS Principle](<Advanced Design Patterns.md#3-kiss-principle>)
+- [YAGNI Principle](<Advanced Design Patterns.md#4-yagni-principle>)
+- [Dependency Injection Pattern](<Advanced Design Patterns.md#5-dependency-injection-pattern>)
+- [Composition Vs Inheritance](<Advanced Design Patterns.md#6-composition-vs-inheritance>)
+- [Event-Driven Architecture](<Advanced Design Patterns.md#7-event-driven-architecture>)
+- [CQRS Design Pattern](<Advanced Design Patterns.md#8-cqrs-design-pattern>)
+- [Event Sourcing Patterns](<Advanced Design Patterns.md#9-event-sourcing-patterns>)
+- [CQRS Vs Event Sourcing Patterns](<Advanced Design Patterns.md#10-cqrs-vs-event-sourcing>)
+- [Repository Pattern](<Advanced Design Patterns.md#11-repository-pattern>)
+- [MVC Design Pattern](<Advanced Design Patterns.md#12-mvc-design-pattern>)
 
 ---
 
@@ -132,4 +132,4 @@ These [[Creational Design Patterns]] deal with object creation in a flexible and
 
 Specialised patterns for specific problem domains — business rule engines, query builders, and domain-driven design.
 
-- [[Special Design Patterns/Specification Design Pattern|Specification Design Pattern]]
+- [Specification Design Pattern](<Special Design Patterns/Specification Design Pattern.md>)

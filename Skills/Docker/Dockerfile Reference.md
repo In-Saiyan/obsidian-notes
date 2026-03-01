@@ -2,10 +2,10 @@
 
 A **Dockerfile** is a text file containing ordered instructions to assemble a Docker image.
 
-- [[#Basic Structure]]
-- [[#Common Instructions]]
-- [[#Multi-Stage Builds]]
-- [[#Best Practices]]
+- [Basic Structure](#basic-structure)
+- [Common Instructions](#common-instructions)
+- [Multi-Stage Builds](#multi-stage-builds)
+- [Best Practices](#best-practices)
 
 ---
 

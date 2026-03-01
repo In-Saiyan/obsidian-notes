@@ -2,13 +2,13 @@
 
 Object-Oriented Programming (OOP) is a programming paradigm that organises software design around **objects** — entities that bundle state (fields) and behaviour (methods) together.
 
-- [[#Core Concepts]]
-- [[#Classes and Objects]]
-- [[#Encapsulation]]
-- [[#Inheritance]]
-- [[#Polymorphism]]
-- [[#Abstraction]]
-- [[#Relationships Between Classes]]
+- [Core Concepts](#core-concepts)
+- [Classes and Objects](#classes-and-objects)
+- [Encapsulation](#encapsulation)
+- [Inheritance](#inheritance)
+- [Polymorphism](#polymorphism)
+- [Abstraction](#abstraction)
+- [Relationships Between Classes](#relationships-between-classes)
 
 ---
 

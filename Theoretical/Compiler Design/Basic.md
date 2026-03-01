@@ -71,11 +71,11 @@ Source statement:
 position = initial + rate * 60;
 ```
 
-### Phase 1 — Lexical Analysis ([[Lexical Analyser]])
+### Phase 1 — Lexical Analysis ([Lexical Analyser](<Lexical Analyser.md>))
 
 $$\langle\text{id},1\rangle\;\langle=\rangle\;\langle\text{id},2\rangle\;\langle+\rangle\;\langle\text{id},3\rangle\;\langle*\rangle\;\langle 60 \rangle$$
 
-### Phase 2 — Syntax Analysis ([[Syntax Analyser]])
+### Phase 2 — Syntax Analysis ([Syntax Analyser](<Syntax Analyser.md>))
 
 Produces a parse tree / AST:
 ```

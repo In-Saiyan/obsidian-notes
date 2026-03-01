@@ -1,10 +1,10 @@
 # Docker Volumes & Storage
 
-- [[#Storage Types]]
-- [[#Volumes]]
-- [[#Bind Mounts]]
-- [[#tmpfs Mounts]]
-- [[#Backup & Restore]]
+- [Storage Types](#storage-types)
+- [Volumes](#volumes)
+- [Bind Mounts](#bind-mounts)
+- [tmpfs Mounts](#tmpfs-mounts)
+- [Backup & Restore](#backup-restore)
 
 ---
 

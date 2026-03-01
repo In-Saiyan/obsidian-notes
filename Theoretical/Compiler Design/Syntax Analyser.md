@@ -1,6 +1,6 @@
 # Syntax Analyser (Parser)
 
-The **Syntax Analyser** (parser) is the second phase of a compiler. It takes the token stream produced by the [[Lexical Analyser]] and checks whether it conforms to the **context-free grammar** (CFG) of the language, producing a **parse tree** (or abstract syntax tree).
+The **Syntax Analyser** (parser) is the second phase of a compiler. It takes the token stream produced by the [Lexical Analyser](<Lexical Analyser.md>) and checks whether it conforms to the **context-free grammar** (CFG) of the language, producing a **parse tree** (or abstract syntax tree).
 
 $$
 \text{Token stream} \xrightarrow{\text{Parser}} \text{Parse Tree / AST}
@@ -882,7 +882,7 @@ void yyerror(const char *s) { fprintf(stderr, "Error: %s\n", s); }
 int main(void) { return yyparse(); }
 ```
 
-Pair this with the Flex scanner from the [[Lexical Analyser]] notes and build:
+Pair this with the Flex scanner from the [Lexical Analyser](<Lexical Analyser.md>) notes and build:
 ```bash
 bison -d calc.y        # generates calc.tab.c and calc.tab.h
 flex scanner.l         # generates lex.yy.c

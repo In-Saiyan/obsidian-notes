@@ -2,10 +2,10 @@
 
 Docker Compose is a tool for defining and running **multi-container** applications using a single YAML file.
 
-- [[#Basic Structure]]
-- [[#Common Configuration]]
-- [[#Commands]]
-- [[#Example — Full Stack App]]
+- [Basic Structure](#basic-structure)
+- [Common Configuration](#common-configuration)
+- [Commands](#commands)
+- [Example — Full Stack App](#example-full-stack-app)
 
 ---
 

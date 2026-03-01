@@ -1,8 +1,8 @@
 # Docker Networking
 
-- [[#Network Drivers]]
-- [[#Container DNS]]
-- [[#Common Patterns]]
+- [Network Drivers](#network-drivers)
+- [Container DNS](#container-dns)
+- [Common Patterns](#common-patterns)
 
 ---
 

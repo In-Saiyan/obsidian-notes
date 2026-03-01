@@ -5,16 +5,16 @@
 
 # Code Fonts
 ## Lilex Nerd Font
-![[./assets/Pasted image 20260301145211.png]]
+![](assets/Pasted%20image%2020260301145211.png)
 ## JetBrains Mono Nerd Font
-![[Pasted image 20260301145227.png]]
+![](assets/Pasted%20image%2020260301145227.png)
 ## Iosevka Nerd Font
-![[Pasted image 20260301145152.png]]
+![](assets/Pasted%20image%2020260301145152.png)
 ## Maple Mono Nerd Font
-![[Pasted image 20260301145248.png]]
+![](assets/Pasted%20image%2020260301145248.png)
 ## Space Mono Nerd Font
-![[Pasted image 20260301145308.png]]
+![](assets/Pasted%20image%2020260301145308.png)
 ## Operator Mono Nerd Font
-![[Pasted image 20260301145407.png]]
+![](assets/Pasted%20image%2020260301145407.png)
 ## Adwaita Mono Nerd Font
-![[Pasted image 20260301145426.png]]
+![](assets/Pasted%20image%2020260301145426.png)

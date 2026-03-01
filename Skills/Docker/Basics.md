@@ -1,12 +1,12 @@
 # Docker Basics
 
-- [[#What is Docker?]]
-- [[#Docker vs Virtual Machines]]
-- [[#Core Concepts]]
-- [[#Docker Architecture]]
-- [[#Image Lifecycle]]
-- [[#Container Lifecycle]]
-- [[#Essential Commands]]
+- [What is Docker?](#what-is-docker)
+- [Docker vs Virtual Machines](#docker-vs-virtual-machines)
+- [Core Concepts](#core-concepts)
+- [Docker Architecture](#docker-architecture)
+- [Image Lifecycle](#image-lifecycle)
+- [Container Lifecycle](#container-lifecycle)
+- [Essential Commands](#essential-commands)
 
 ---
 

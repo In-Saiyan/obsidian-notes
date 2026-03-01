@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assets/fonts.md",
+                "file": "Theoretical/Compiler Design/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fonts"
+              "title": "Index"
             }
           }
         ]
@@ -186,9 +186,12 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
-    "Skills/Docker/Networking.md",
-    "Assets/fonts.md",
+    "Theoretical/Index.md",
+    "Theoretical/Compiler Design/Basic.md",
+    "Theoretical/Compiler Design/Index.md",
     "Assets/Index.md",
+    "Assets/fonts.md",
+    "Skills/Docker/Networking.md",
     "Assets/assets/Pasted image 20260301145426.png",
     "Assets/assets/Pasted image 20260301145407.png",
     "Assets/assets/Pasted image 20260301145308.png",
@@ -224,9 +227,6 @@
     "LIT2024021_daa_a7.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "LIT2024021_daa_a9.md",
-    "Untitled.md",
-    "LIT2024021_a8_competitive_programming.md",
-    "LIT2024021_DAA_A6_KNAPSACK.md"
+    "LIT2024021_daa_a9.md"
   ]
 }
