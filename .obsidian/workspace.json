@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Compiler Design/Code Optimisation.md",
+                "file": "Skills/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Optimisation"
+              "title": "Index"
             }
           }
         ]
@@ -183,29 +183,37 @@
   },
   "active": "543eec20eb42c59a",
   "lastOpenFiles": [
-    "Skills/Compiler Design/Code Generation.md",
+    "Linux/Bash.md",
     "Skills/Index.md",
-    "Skills/Compiler Design/Lexical Analyser.md",
-    "Skills/Compiler Design/Index.md",
-    "Skills/Compiler Design/Code Optimisation.md",
-    "Skills/OOPS and System Design/Lazy Initialization.md",
-    "Skills/Compiler Design/Intermediate Code Generation.md",
-    "Skills/OOPS and System Design/Topics.md",
-    "Skills/Compiler Design/Semantic Analysis.md",
-    "Skills/OOPS and System Design/Solid Principles.md",
-    "Skills/OOPS and System Design/Patterns.md",
-    "Skills/Machine Learning/Supervised vs Unsupervised Machine Learning.md",
-    "Skills/Machine Learning/Notation.md",
-    "Skills/Machine Learning/Machine Learning Index.md",
-    "Skills/Machine Learning/Linear Regression.md",
-    "Skills/Kubernetes/Basics.md",
-    "Skills/Kubernetes/Practical.md",
-    "Skills/Compiler Design/Basic.md",
-    "Skills/Compiler Design/Syntax Analyser.md",
+    "Skills/Algorithms/Algorithms.md",
+    "Skills/OOPS/Special Design Patterns/Specification Design Pattern.md",
+    "Skills/OOPS/Special Design Patterns",
+    "Skills/SpringBoot and Java/OOPS in SpringBoot.md",
+    "Skills/SpringBoot and Java/Interfaces and Abstract Classes.md",
+    "Skills/SpringBoot and Java/Data Types.md",
+    "Skills/SpringBoot and Java/Collection Framework.md",
+    "Skills/SpringBoot and Java/Basic REST API in SpringBoot.md",
+    "Skills/SpringBoot and Java/Access Modifiers.md",
+    "Skills/SpringBoot and Java",
+    "Skills/SpringBoot/OOPS in SpringBoot.md",
+    "Skills/SpringBoot/Interfaces and Abstract Classes.md",
+    "Skills/SpringBoot/Collection Framework.md",
+    "Skills/SpringBoot/Basic REST API in SpringBoot.md",
+    "Skills/SpringBoot/Access Modifiers.md",
     "Regex/Regex.md",
+    "Skills/OOPS/Advanced Design Patterns.md",
+    "Skills/Compiler Design/Code Generation.md",
+    "Skills/Compiler Design/Index.md",
+    "Skills/Compiler Design/Semantic Analysis.md",
+    "Skills/Kubernetes/Practical.md",
+    "Skills/Kubernetes/Basics.md",
+    "Skills/OOPS/Behavioral Design Patterns.md",
+    "Skills/OOPS/Structural Design Patterns.md",
+    "Skills/OOPS/Creational Design Patterns.md",
+    "Skills/OOPS/Index.md",
+    "Skills/OOPS",
+    "SETUP-asset.png",
     "Regex",
-    "Linux/Linux.md",
-    "Linux",
-    "SETUP-asset.png"
+    "Linux"
   ]
 }

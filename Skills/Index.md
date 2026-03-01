@@ -1,4 +1,5 @@
+# 0. [Bash](Bash.md)
 # 1. [Algorithms](Algorithms.md)
 # 2. [Regex](Regex.md)
-# 3. [Machine Learning](<./Machine Learning/Machine Learning Index>)
-# 4. [Compiler Design](<./Compiler Design/Index.md>)
+# 3. [Compiler Design](<./Compiler Design/Index.md>)
+# 4. [OOPS & Design Patterns](<./OOPS/Index.md>)
