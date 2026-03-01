@@ -1,18 +1,21 @@
 # 1	Cluster
-A cluster is a set of resources that makes up a kubernetes system.
+A cluster is a set of resources that makes up a Kubernetes system.
 It comprises of:
-- Control Plane
-- Data Plane
+- **Control Plane** — manages the cluster
+- **Data Plane** — runs user workloads
 
 ![[Pasted image 20250617043830.png]]
 
 ### 1.1.1	Control Plane
-This is where all the system components run.
+This is where all the system components run. It is responsible for making global decisions about the cluster (e.g. scheduling), as well as detecting and responding to cluster events.
 
 ### 1.1.2	Data Plane
-This is where end-user applications run.
+This is where end-user applications run. Each node in the data plane runs a `kubelet` and a container runtime.
 
-We can also make just one node which acts as both - the data and the control plain, but in practice they are used separately in most production systems.
+We can also make just one node which acts as both — the data and the control plane — but in practice they are separated in most production systems.
+
+> [!TIP]
+> Managed Kubernetes offerings (EKS, AKS, GKE) abstract away the control plane entirely.
 
 # 2	Kubernetes System Architecture
 
@@ -25,34 +28,42 @@ We can also make just one node which acts as both - the data and the control pla
 Interface between kubernetes and cloud provider.
 
 ### 2.1.2	Controller Manager (C-M)
-This runs all the various controller that regulate the state of the cluster.
+Runs all the various controllers that regulate the state of the cluster.  
+Examples: Node Controller, ReplicaSet Controller, Endpoints Controller.
 
-### 2.1.3	API
-API for interacting with the kubernetes cluster.
+### 2.1.3	API Server (kube-apiserver)
+The central management entity and the **only** component that talks to etcd directly. All other components interact with the cluster through the API server.
 
-### 2.1.4	etc-d
-This is the data store that kubernetes uses to manage all the resources that are deployed on it. It also ensures data consistency.
+### 2.1.4	etcd
+A distributed key-value store that Kubernetes uses to persist all cluster state — resource definitions, configuration, secrets, etc. It provides strong consistency guarantees via the Raft consensus algorithm.
 
-### 2.1.5	Scheduler 
-It assigns pods/containers to new nodes based on their current usage.
+### 2.1.5	Scheduler
+Assigns pods to nodes based on resource requests, affinity/anti-affinity rules, taints & tolerations, and current node utilisation.
 
 ## 2.2	On the Data Plane
 
 ### 2.2.1	Kubelet
-It is the component responsible to spawn and manage the workloads, it also performs health checking and relays that information back to the API server on the control plane.
+Primary node agent. Responsible for:
+- Registering the node with the API server
+- Spawning and managing containers via the CRI
+- Performing liveness, readiness, and startup probes
+- Reporting node and pod status back to the control plane
 
 ### 2.2.2	Kube-proxy
-Is responsible for setting up and maintaining the network between different workloads. It sets up the rules within the IP table to ensure that the workload can communicate according to the config.
+Maintains network rules on each node. It programmes `iptables` (or IPVS) rules so that Services can route traffic to the correct pods.
+
+> **Note:** Some CNIs like Cilium replace kube-proxy entirely by programming eBPF at the kernel level.
 
 # 3	Kubernetes Standard Interfaces
-These are used to handle things like runtime, network and storage. This makes the system more modular and allow using different implementation of any of the interfaces according to the need.
+These are used to handle runtime, networking, and storage. They make the system modular by allowing different implementations to be swapped in without changing Kubernetes itself.
 
-Ex:
-- Container Runtime Interface (CRI)
-- Container Networking Interface (CNI)
-- Container Storage Interface (CSI)
+| Interface | Purpose |
+|---|---|
+| **CRI** — Container Runtime Interface | Execute containers |
+| **CNI** — Container Network Interface | Set up pod networking |
+| **CSI** — Container Storage Interface | Provision persistent storage |
 
-These are separated from main implementation of Kubernetes so that we can have a 'pluggable' interface which is independent of rest of the project.
+These are separated from the core Kubernetes codebase so that each interface is pluggable and independently versioned.
 
 ### 3.1.1	Container Runtime Interfaces (CRIs)
 
@@ -70,10 +81,10 @@ Defines how networking should be set up for the containers.
 Ex: Calico, Flannel, Cilium.
 Amazon, Microsoft(Azure) and Google have their service-specific CNIs.
 
-> Not all of these use kube-proxy, for example Cilium uses EPPF, it manages networking at kernel layer instead of the Data layer.
+> Not all of these use kube-proxy. For example, Cilium uses **eBPF** and manages networking at the kernel layer instead of the user-space/iptables layer.
 
-### 3.1.3	Control Storage Interfaces (CSIs)
-They are used to provide durable, persistent storage to a workload running in kubernetes, these driver scan also (often) communicate to cloud provider to use their underlying block storage implementations which are cloud-service specific.
+### 3.1.3	Container Storage Interfaces (CSIs)
+Used to provide durable, persistent storage to workloads running in Kubernetes. These drivers can communicate with cloud providers to leverage their underlying block-storage implementations.
 
 These can also be used to provide information or configuration to a container at runtime. For ex: cert-manager can load a certificate at runtime, Secret Store CSI driver can load env variables into the file system at runtime as well.
 
@@ -84,41 +95,176 @@ Ex:
 - Cert Manager
 - Secret Store 
 
-# 4	Modules
-This provides mechanism to group resources within a cluster.
-There are 4 initial namespaces(used by kubernetes): 
-1. Defalt
-2. kube-node-lease
-3. kube-system
-4. kube-public
+# 4	Namespaces
+Namespaces provide a mechanism to **logically group and isolate** resources within a cluster. They are useful for multi-team or multi-environment setups.
+
+There are 4 initial namespaces created by Kubernetes:
+1. **default** — where resources land if no namespace is specified
+2. **kube-node-lease** — holds Lease objects for node heartbeats
+3. **kube-system** — reserved for system-level components
+4. **kube-public** — readable by all users, typically used for cluster info
 
 ![[Pasted image 20250622021228.png]]
 
 `Namespace.yaml`
 ```yaml
-apiVersion: v2
+apiVersion: v1
 kind: Namespace
-metadata: 
-	name: non-default
+metadata:
+  name: non-default
 ```
 
-`Tasks.yaml`
-```yaml
-version: 3
-tasks: 
-	01-create-namespaces: 
-		cmds: 
-			- kubectl create namspace 04--namespace-cli
-			desc: create a namespace in the cluster
-	
-	02-apply-namespaces:
-		cmds:
-			- kubectl apply -f Namespace.yaml
-			desc: apply the namespace configuration to the cluster
-	
-	03-delete-namespace:
-		cmds:
-			- kubectl delete namespace 04--namespace-cli
-			- kubectl delete -f Namespace.yaml
-			desc: like bro really do you even need to write this anymore???!
+**Common namespace commands:**
+```bash
+# Create a namespace imperatively
+kubectl create namespace my-namespace
+
+# Create from YAML
+kubectl apply -f Namespace.yaml
+
+# List all namespaces
+kubectl get namespaces
+
+# Delete a namespace (removes ALL resources inside it)
+kubectl delete namespace my-namespace
+kubectl delete -f Namespace.yaml
 ```
+
+---
+
+# 5	Core Workload Resources
+
+## 5.1	Pod
+Smallest deployable unit. A pod encapsulates one or more containers that share networking and storage.
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.27
+      ports:
+        - containerPort: 80
+```
+
+## 5.2	Deployment
+Manages a **ReplicaSet** and provides declarative updates for Pods — rolling updates, rollbacks, and scaling.
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27
+          ports:
+            - containerPort: 80
+```
+
+## 5.3	Service
+Provides a **stable network endpoint** for accessing a set of pods.
+
+| Type | Description |
+|---|---|
+| **ClusterIP** | Reachable only within the cluster (default) |
+| **NodePort** | Exposed on each node's IP at a static port |
+| **LoadBalancer** | Provisions an external load balancer (cloud) |
+| **ExternalName** | Maps to an external DNS name |
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - port: 80
+      targetPort: 80
+  type: ClusterIP
+```
+
+## 5.4	ConfigMap & Secret
+
+**ConfigMap** — injects non-sensitive configuration into pods.
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  LOG_LEVEL: "debug"
+  DATABASE_HOST: "db.example.com"
+```
+
+**Secret** — stores sensitive data (base64-encoded at rest by default).
+
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-credentials
+type: Opaque
+data:
+  username: YWRtaW4=
+  password: cGFzc3dvcmQ=
+```
+
+---
+
+# 6	Health Probes
+
+Kubernetes uses probes to determine container health:
+
+| Probe | Purpose | Failure action |
+|---|---|---|
+| **Liveness** | Is the container alive? | Restart the container |
+| **Readiness** | Is it ready to serve traffic? | Remove from Service endpoints |
+| **Startup** | Has it finished initialising? | Kill & restart (protects slow starters) |
+
+```yaml
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: 8080
+  initialDelaySeconds: 5
+  periodSeconds: 10
+readinessProbe:
+  httpGet:
+    path: /ready
+    port: 8080
+  periodSeconds: 5
+```
+
+---
+
+# 7	Resource Management
+
+```yaml
+resources:
+  requests:
+    cpu: "250m"
+    memory: "128Mi"
+  limits:
+    cpu: "500m"
+    memory: "256Mi"
+```
+
+- **Requests** — guaranteed minimum; used by the scheduler for placement.
+- **Limits** — hard ceiling; container is throttled (CPU) or OOM-killed (memory) if exceeded.
