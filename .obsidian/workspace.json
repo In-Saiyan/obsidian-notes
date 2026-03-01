@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Skills/DSA/Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,11 +186,14 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
-    "README.md",
+    "Skills/Index.md",
+    "Theoretical/Index.md",
+    "Skills/DSA/Index.md",
+    "Skills/DSA/Fermat's Little Theorem.md",
     "Index.md",
+    "README.md",
     "Assets/fonts.md",
     "Theoretical/Compiler Design/Index.md",
-    "Theoretical/Index.md",
     "Theoretical/Compiler Design/Basic.md",
     "Assets/Index.md",
     "Skills/Docker/Networking.md",
@@ -224,9 +227,6 @@
     "Pasted image 20251120165853.png",
     "Pasted image 20251120165618.png",
     "LIT2024021_daa_labs.html",
-    "daa.md",
-    "LIT2024021_daa_a7.md",
-    "Untitled 1.md",
-    "Untitled 2.md"
+    "daa.md"
   ]
 }
