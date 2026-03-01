@@ -9,6 +9,7 @@ tags:
 - [Programming Fonts](https://www.programmingfonts.org)
 - [NerdFonts.com](https://www.nerdfonts.com//)
 - [Operator Mono Fonts](https://github.com/ajaybhatia/OperatorMonoLig-Fonts)
+- [Ioskeley Mono Font](https://github.com/ahatem/IoskeleyMono)
 
 # Code Fonts
 ## Lilex Nerd Font
@@ -25,3 +26,5 @@ tags:
 ![](assets/Pasted%20image%2020260301145407.png)
 ## Adwaita Mono Nerd Font
 ![](assets/Pasted%20image%2020260301145426.png)
+## Ioskeley Mono Nerd Font
+![](./assets/image.png)

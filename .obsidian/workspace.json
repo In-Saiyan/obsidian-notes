@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theoretical/Compiler Design/Lexical Analyser.md",
+                "file": "Assets/fonts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lexical Analyser"
+              "title": "fonts"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#scanner  ",
+                "query": "tag:#fonts  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,6 +187,9 @@
   },
   "active": "b065e0ed280c1dac",
   "lastOpenFiles": [
+    "Theoretical/Compiler Design/Lexical Analyser.md",
+    "Assets/assets/image.png",
+    "Assets/image.png",
     "Skills/DSA/Data Structures/DSU.md",
     "Assets/Index.md",
     "Assets/fonts.md",
@@ -216,7 +219,6 @@
     "Skills/DevOps/Docker",
     "Skills/DevOps",
     "Skills/DSA/Data Structures/Ordered Set.md",
-    "Skills/DSA/Algorithms/Fermat's Little Theorem.md",
     "Skills/DSA/Data Structures",
     "Skills/DSA/Algorithms",
     "Assets/assets/Pasted image 20260301145426.png",
@@ -226,12 +228,10 @@
     "Assets/assets/Pasted image 20260301145227.png",
     "Assets/assets/Pasted image 20260301145211.png",
     "Assets/assets/Pasted image 20260301145152.png",
-    "Assets/assets/Pasted image 20260301145138.png",
     "Assets/assets",
     "Assets",
     "Untitled 1",
     "Untitled",
-    "LIT2024021_daa_labs.pdf",
-    "Pasted image 20251120165853.png"
+    "LIT2024021_daa_labs.pdf"
   ]
 }
