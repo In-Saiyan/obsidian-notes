@@ -2,7 +2,7 @@
 
 ## Algorithms
 
-1. [Fermat's Little Theorem](./Algorithms/Fermat's%20Little%20Theorem.md)
+1. [Number Theory](./Algorithms/Number%20Theory.md) — Fermat, Sieve, SPF, Miller-Rabin, Pollard's Rho
 2. [Euclidean GCD](./Algorithms/Euclidean%20GCD.md)
 3. [Binary Search](./Algorithms/Binary%20Search.md)
 4. [DFS & BFS](./Algorithms/DFS%20and%20BFS.md)
