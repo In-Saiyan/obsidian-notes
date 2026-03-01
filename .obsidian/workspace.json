@@ -11,12 +11,14 @@
             "id": "543eec20eb42c59a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SETUP-asset.png"
+                "file": "Skills/Compiler Design/Code Optimisation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "SETUP-asset"
+              "icon": "lucide-file",
+              "title": "Code Optimisation"
             }
           }
         ]
@@ -175,9 +177,35 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "543eec20eb42c59a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Skills/Compiler Design/Code Generation.md",
+    "Skills/Index.md",
+    "Skills/Compiler Design/Lexical Analyser.md",
+    "Skills/Compiler Design/Index.md",
+    "Skills/Compiler Design/Code Optimisation.md",
+    "Skills/OOPS and System Design/Lazy Initialization.md",
+    "Skills/Compiler Design/Intermediate Code Generation.md",
+    "Skills/OOPS and System Design/Topics.md",
+    "Skills/Compiler Design/Semantic Analysis.md",
+    "Skills/OOPS and System Design/Solid Principles.md",
+    "Skills/OOPS and System Design/Patterns.md",
+    "Skills/Machine Learning/Supervised vs Unsupervised Machine Learning.md",
+    "Skills/Machine Learning/Notation.md",
+    "Skills/Machine Learning/Machine Learning Index.md",
+    "Skills/Machine Learning/Linear Regression.md",
+    "Skills/Kubernetes/Basics.md",
+    "Skills/Kubernetes/Practical.md",
+    "Skills/Compiler Design/Basic.md",
+    "Skills/Compiler Design/Syntax Analyser.md",
+    "Regex/Regex.md",
+    "Regex",
+    "Linux/Linux.md",
+    "Linux",
+    "SETUP-asset.png"
+  ]
 }
