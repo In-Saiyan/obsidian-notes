@@ -177,12 +177,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "543eec20eb42c59a",
+  "active": "50f462acfa062696",
   "lastOpenFiles": [
+    "Theoratical",
     "Skills/Index.md",
     "Skills/OOPS/OOPS Basics.md",
     "Skills/SpringBoot and Java/Index.md",
-    "Linux/Bash.md",
+    "Skills/Linux/Bash.md",
     "Skills/Algorithms/Algorithms.md",
     "Skills/OOPS/Special Design Patterns/Specification Design Pattern.md",
     "Skills/OOPS/Special Design Patterns",
@@ -198,18 +199,17 @@
     "Skills/SpringBoot/Collection Framework.md",
     "Skills/SpringBoot/Basic REST API in SpringBoot.md",
     "Skills/SpringBoot/Access Modifiers.md",
-    "Regex/Regex.md",
+    "Skills/Regex/Regex.md",
     "Skills/OOPS/Advanced Design Patterns.md",
-    "Skills/Compiler Design/Code Generation.md",
-    "Skills/Compiler Design/Index.md",
-    "Skills/Compiler Design/Semantic Analysis.md",
+    "Theoratical/Compiler Design/Code Generation.md",
+    "Theoratical/Compiler Design/Index.md",
+    "Theoratical/Compiler Design/Semantic Analysis.md",
     "Skills/Kubernetes/Practical.md",
     "Skills/Kubernetes/Basics.md",
     "Skills/OOPS/Behavioral Design Patterns.md",
-    "Skills/OOPS/Structural Design Patterns.md",
     "Skills/OOPS",
     "SETUP-asset.png",
-    "Regex",
-    "Linux"
+    "Skills/Regex",
+    "Skills/Linux"
   ]
 }

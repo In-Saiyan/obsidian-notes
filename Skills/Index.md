@@ -1,6 +1,6 @@
 # 0. [Bash](Bash.md)
 # 1. [Algorithms](Algorithms.md)
 # 2. [Regex](Regex.md)
-# 3. [Compiler Design](<./Compiler Design/Index.md>)
+# 3. [Compiler Design](<Theoratical/Compiler Design/Index.md>)
 # 4. [OOPS & Design Patterns](<./OOPS/Index.md>)
 # 5. [SpringBoot & Java](<./SpringBoot and Java/Index.md>)
