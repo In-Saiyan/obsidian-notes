@@ -3,5 +3,4 @@
 # 2. [Regex](./Regex/Regex.md)
 # 3. [OOPS & Design Patterns](<./OOPS/Index.md>)
 # 4. [SpringBoot & Java](<./SpringBoot and Java/Index.md>)
-# 5. [Kubernetes](<./DevOps/Kubernetes/Index.md>)
-# 6. [Docker](<./DevOps/Docker/Index.md>)
+# 5. [DevOps](<./DevOps/Index.md>)
