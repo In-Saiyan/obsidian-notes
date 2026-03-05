@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cfabf2814caf1a1c",
+        "id": "3db49fbe23815c38",
         "type": "tabs",
         "children": [
           {
-            "id": "b065e0ed280c1dac",
+            "id": "69a2589d7f2852f2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -83,6 +83,7 @@
       {
         "id": "468e4cf6cf1e0ae1",
         "type": "tabs",
+        "dimension": 66.89497716894978,
         "children": [
           {
             "id": "883af2f2ced7a64a",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LIT2024021_CP_ASS_4_ARYAN_SINGH.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LIT2024021_CP_ASS_4_ARYAN_SINGH"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -109,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LIT2024021_CP_ASS_4_ARYAN_SINGH.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LIT2024021_CP_ASS_4_ARYAN_SINGH"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -125,7 +126,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -138,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LIT2024021_CP_ASS_4_ARYAN_SINGH.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LIT2024021_CP_ASS_4_ARYAN_SINGH"
+              "title": "Outline of README"
             }
           },
           {
@@ -161,59 +162,104 @@
               "title": "All properties"
             }
           }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "d7a280fbb6a137de",
+        "type": "tabs",
+        "dimension": 33.10502283105023,
+        "children": [
+          {
+            "id": "093f84dd08315c25",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7345863357173033,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "b065e0ed280c1dac",
+  "active": "69a2589d7f2852f2",
   "lastOpenFiles": [
+    "Skills/SpringBoot and Java/spring-java-index.md",
+    "main-index.md",
+    "Skills/DevOps/devops-index.md",
+    "Skills/DevOps/Cloudflared.md",
+    "Skills/DSA/dsa-index.md",
+    "Skills/skills-index.md",
+    "Theoretical/theoretical-index.md",
+    "README.md",
+    "Theoretical/Compiler Design/compiler-design-index.md",
+    "Theoretical/Compiler Design/Intermediate Code Generation.md",
+    "Excalidraw/Drawing 2026-03-05 15.52.00.excalidraw.md",
+    "Excalidraw",
+    "Untitled.base",
+    "Skills/DevOps/Kubernetes/kubernetes-index.md",
+    "Skills/DSA/Algorithms/Binary Search.md",
+    "Skills/DSA/Algorithms/Euclidean GCD.md",
+    "Skills/DSA/Data Structures/Trie.md",
+    "Skills/DSA/Data Structures/Segment Tree.md",
+    "Skills/DevOps/Docker/docker-index.md",
+    "Skills/DevOps/Docker/Docker Compose.md",
+    "Skills/DevOps/Docker/Basics.md",
+    "Skills/DevOps/Docker/Dockerfile Reference.md",
+    "Skills/DSA/Algorithms/Number Theory.md",
     "Assets/fonts.md",
     "Theoretical/Compiler Design/Lexical Analyser.md",
     "Assets/assets/image.png",
     "Assets/image.png",
     "Skills/DSA/Data Structures/DSU.md",
-    "Assets/Index.md",
+    "Assets/assets-index.md",
     "Assets/shadcn.md",
-    "Assets/selfhosted.md",
-    "Skills/OOPS/Index.md",
-    "Skills/DSA/Algorithms/Euclidean GCD.md",
-    "Skills/DSA/Algorithms/Dynamic Programming.md",
-    "Skills/Regex/Regex.md",
     "SETUP-asset.png",
-    "Skills/DSA/Algorithms/Number Theory.md",
-    "Skills/DevOps/Index.md",
-    "Skills/DevOps/Nginx.md",
-    "Skills/DevOps/Cloudflared.md",
-    "Skills/DevOps/Docker/Docker Compose.md",
-    "Skills/DevOps/Docker/Basics.md",
-    "Skills/DevOps/Kubernetes/Practical.md",
-    "Skills/DevOps/Kubernetes/Index.md",
-    "Skills/DevOps/Kubernetes/Basics.md",
-    "Skills/Index.md",
-    "Skills/DevOps/Docker/Index.md",
-    "Skills/DevOps/Docker/Volumes & Storage.md",
-    "Skills/DevOps/Docker/Dockerfile Reference.md",
-    "Skills/DevOps/Docker/Networking.md",
     "Skills/DevOps/Docker",
-    "Skills/DevOps/Docker/Networking.md",
     "Skills/DevOps/Docker",
     "Skills/DevOps",
-    "Skills/DSA/Data Structures/Ordered Set.md",
     "Skills/DSA/Data Structures",
     "Skills/DSA/Algorithms",
     "Assets/assets/Pasted image 20260301145426.png",
@@ -225,8 +271,6 @@
     "Assets/assets/Pasted image 20260301145152.png",
     "Assets/assets",
     "Assets",
-    "Untitled 1",
-    "Untitled",
-    "LIT2024021_daa_labs.pdf"
+    "Untitled 1"
   ]
 }

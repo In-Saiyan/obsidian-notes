@@ -1,3 +1,3 @@
 # IDK what to call this repo...
 
-## Explore by clicking [here](./Index.md)
+## Explore by clicking [here](main-index.md)
