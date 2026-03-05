@@ -4,5 +4,5 @@ tags:
   - theoretical
 ---
 
-# 1. [Compiler Design](<compiler-design-index.md>)
+# 1. [Compiler Design](<./Compiler Design/compiler-design-index.md>)
 
