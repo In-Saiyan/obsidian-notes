@@ -12,7 +12,7 @@ It comprises of:
 - **Control Plane** — manages the cluster
 - **Data Plane** — runs user workloads
 
-![](Pasted%20image%2020250617043830.png)
+![](./attachments/Pasted%20image%2020250617043830.png)
 
 ### 1.1.1	Control Plane
 This is where all the system components run. It is responsible for making global decisions about the cluster (e.g. scheduling), as well as detecting and responding to cluster events.
@@ -27,7 +27,7 @@ We can also make just one node which acts as both — the data and the control p
 
 # 2	Kubernetes System Architecture
 
-![](Pasted%20image%2020250617044041.png)
+![](./attachments/Pasted%20image%2020250617044041.png)
 
 
 ## 2.1	On the Control Plane
@@ -112,7 +112,7 @@ There are 4 initial namespaces created by Kubernetes:
 3. **kube-system** — reserved for system-level components
 4. **kube-public** — readable by all users, typically used for cluster info
 
-![](Pasted%20image%2020250622021228.png)
+![](./attachments/Pasted%20image%2020250622021228.png)
 
 `Namespace.yaml`
 ```yaml
