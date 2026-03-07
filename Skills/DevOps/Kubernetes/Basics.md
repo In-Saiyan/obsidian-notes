@@ -65,10 +65,10 @@ Maintains network rules on each node. It programmes `iptables` (or IPVS) rules s
 # 3	Kubernetes Standard Interfaces
 These are used to handle runtime, networking, and storage. They make the system modular by allowing different implementations to be swapped in without changing Kubernetes itself.
 
-| Interface | Purpose |
-|---|---|
-| **CRI** — Container Runtime Interface | Execute containers |
-| **CNI** — Container Network Interface | Set up pod networking |
+| Interface                             | Purpose                      |
+| ------------------------------------- | ---------------------------- |
+| **CRI** — Container Runtime Interface | Execute containers           |
+| **CNI** — Container Network Interface | Set up pod networking        |
 | **CSI** — Container Storage Interface | Provision persistent storage |
 
 These are separated from the core Kubernetes codebase so that each interface is pluggable and independently versioned.
@@ -186,12 +186,12 @@ spec:
 ## 5.3	Service
 Provides a **stable network endpoint** for accessing a set of pods.
 
-| Type | Description |
-|---|---|
-| **ClusterIP** | Reachable only within the cluster (default) |
-| **NodePort** | Exposed on each node's IP at a static port |
+| Type             | Description                                  |
+| ---------------- | -------------------------------------------- |
+| **ClusterIP**    | Reachable only within the cluster (default)  |
+| **NodePort**     | Exposed on each node's IP at a static port   |
 | **LoadBalancer** | Provisions an external load balancer (cloud) |
-| **ExternalName** | Maps to an external DNS name |
+| **ExternalName** | Maps to an external DNS name                 |
 
 ```yaml
 apiVersion: v1
@@ -240,11 +240,11 @@ data:
 
 Kubernetes uses probes to determine container health:
 
-| Probe | Purpose | Failure action |
-|---|---|---|
-| **Liveness** | Is the container alive? | Restart the container |
-| **Readiness** | Is it ready to serve traffic? | Remove from Service endpoints |
-| **Startup** | Has it finished initialising? | Kill & restart (protects slow starters) |
+| Probe         | Purpose                       | Failure action                          |
+| ------------- | ----------------------------- | --------------------------------------- |
+| **Liveness**  | Is the container alive?       | Restart the container                   |
+| **Readiness** | Is it ready to serve traffic? | Remove from Service endpoints           |
+| **Startup**   | Has it finished initialising? | Kill & restart (protects slow starters) |
 
 ```yaml
 livenessProbe:
