@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Cryptography/Exploitation.md",
+                "file": "Skills/Cryptography/cryptography-index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "cryptography-index"
             }
           }
         ]
@@ -180,7 +180,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skills/Cryptography/Exploitation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +207,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Exploitation"
+              "title": "Graph view"
             }
           }
         ]
@@ -229,10 +228,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "69a2589d7f2852f2",
+  "active": "7d059f8d0a923961",
   "lastOpenFiles": [
-    "Skills/Cryptography/Randomness.md",
+    "Assets/Pasted image 20260323162535.png",
+    "Assets/Pasted image 20260323162453.png",
     "Skills/Cryptography/cryptography-index.md",
+    "OS Assigment - 4.md",
+    "Skills/Cryptography/Randomness.md",
     "Skills/Cryptography/Exploitation.md",
     "Skills/skills-index.md",
     "main-index.md",
@@ -256,8 +258,6 @@
     "Skills/SpringBoot and Java/spring-java-index.md",
     "Theoretical/Compiler Design/compiler-design-index.md",
     "Theoretical/theoretical-index.md",
-    "Skills/DevOps/devops-index.md",
-    "Skills/DevOps/Cloudflared.md",
     "Excalidraw",
     "Untitled.base",
     "Assets/assets/image.png",
@@ -274,7 +274,6 @@
     "Assets/assets/Pasted image 20260301145248.png",
     "Assets/assets/Pasted image 20260301145227.png",
     "Assets/assets/Pasted image 20260301145211.png",
-    "Assets/assets/Pasted image 20260301145152.png",
     "Assets/assets",
     "Assets"
   ]
